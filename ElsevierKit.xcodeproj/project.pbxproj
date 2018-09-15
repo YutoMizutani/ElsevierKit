@@ -17,6 +17,10 @@
 		99871C3D214D7B7700385C93 /* ElsevierKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871BCD214D7A5E00385C93 /* ElsevierKitTests.swift */; };
 		99871C3F214D7B7900385C93 /* ElsevierKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871BCD214D7A5E00385C93 /* ElsevierKitTests.swift */; };
 		99871C40214D7B7A00385C93 /* ElsevierKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871BCD214D7A5E00385C93 /* ElsevierKitTests.swift */; };
+		99871C4C214D7FF500385C93 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99871C4B214D7FF500385C93 /* Alamofire.framework */; };
+		99871C4E214D800200385C93 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99871C4D214D800200385C93 /* Alamofire.framework */; };
+		99871C50214D800F00385C93 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99871C4F214D800F00385C93 /* Alamofire.framework */; };
+		99871C52214D801C00385C93 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99871C51214D801C00385C93 /* Alamofire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,10 @@
 		99871C22214D7B4900385C93 /* ElsevierKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ElsevierKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99871C2A214D7B4900385C93 /* ElsevierKit macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ElsevierKit macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99871C43214D7BB300385C93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/Info.plist; sourceTree = "<group>"; };
+		99871C4B214D7FF500385C93 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/watchOS/Alamofire.framework; sourceTree = "<group>"; };
+		99871C4D214D800200385C93 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/tvOS/Alamofire.framework; sourceTree = "<group>"; };
+		99871C4F214D800F00385C93 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/Mac/Alamofire.framework; sourceTree = "<group>"; };
+		99871C51214D801C00385C93 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99871C52214D801C00385C93 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99871C4C214D7FF500385C93 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99871C4E214D800200385C93 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99871C50214D800F00385C93 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +175,49 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		99871C44214D7FAC00385C93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99871C48214D7FD000385C93 /* iOS */,
+				99871C47214D7FC800385C93 /* macOS */,
+				99871C46214D7FC200385C93 /* watchOS */,
+				99871C45214D7FB500385C93 /* tvOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99871C45214D7FB500385C93 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				99871C4D214D800200385C93 /* Alamofire.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		99871C46214D7FC200385C93 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				99871C4B214D7FF500385C93 /* Alamofire.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		99871C47214D7FC800385C93 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				99871C4F214D800F00385C93 /* Alamofire.framework */,
+			);
+			name = macOS;
+			sourceTree = "<group>";
+		};
+		99871C48214D7FD000385C93 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				99871C51214D801C00385C93 /* Alamofire.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		OBJ_14 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,10 +235,11 @@
 		OBJ_5 /*  */ = {
 			isa = PBXGroup;
 			children = (
-				99871C41214D7B9700385C93 /* Supporting Files */,
 				OBJ_6 /* Package.swift */,
 				99871BCE214D7A5E00385C93 /* Sources */,
 				99871BC9214D7A5E00385C93 /* Tests */,
+				99871C44214D7FAC00385C93 /* Frameworks */,
+				99871C41214D7B9700385C93 /* Supporting Files */,
 				OBJ_14 /* Products */,
 			);
 			name = "";
@@ -585,6 +641,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -659,6 +719,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -852,6 +916,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -927,6 +995,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -995,6 +1067,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1069,6 +1145,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1260,6 +1340,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1334,6 +1418,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
