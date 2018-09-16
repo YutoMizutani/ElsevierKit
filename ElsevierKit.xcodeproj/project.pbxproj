@@ -21,6 +21,33 @@
 		99871C4E214D800200385C93 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99871C4D214D800200385C93 /* Alamofire.framework */; };
 		99871C50214D800F00385C93 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99871C4F214D800F00385C93 /* Alamofire.framework */; };
 		99871C52214D801C00385C93 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99871C51214D801C00385C93 /* Alamofire.framework */; };
+		99871C5B214DB80700385C93 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C5A214DB80700385C93 /* API.swift */; };
+		99871C5C214DB80700385C93 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C5A214DB80700385C93 /* API.swift */; };
+		99871C5D214DB80700385C93 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C5A214DB80700385C93 /* API.swift */; };
+		99871C5E214DB80700385C93 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C5A214DB80700385C93 /* API.swift */; };
+		99871C60214DC98100385C93 /* Authenticate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C5F214DC98100385C93 /* Authenticate.swift */; };
+		99871C61214DC98100385C93 /* Authenticate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C5F214DC98100385C93 /* Authenticate.swift */; };
+		99871C62214DC98100385C93 /* Authenticate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C5F214DC98100385C93 /* Authenticate.swift */; };
+		99871C63214DC98100385C93 /* Authenticate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C5F214DC98100385C93 /* Authenticate.swift */; };
+		99871C66214DCC4800385C93 /* PlatformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C65214DCC4800385C93 /* PlatformType.swift */; };
+		99871C67214DCC4800385C93 /* PlatformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C65214DCC4800385C93 /* PlatformType.swift */; };
+		99871C68214DCC4800385C93 /* PlatformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C65214DCC4800385C93 /* PlatformType.swift */; };
+		99871C69214DCC4800385C93 /* PlatformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C65214DCC4800385C93 /* PlatformType.swift */; };
+		99871C6C214E21D900385C93 /* Operator+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C6B214E21D900385C93 /* Operator+.swift */; };
+		99871C6D214E21D900385C93 /* Operator+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C6B214E21D900385C93 /* Operator+.swift */; };
+		99871C6E214E21D900385C93 /* Operator+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C6B214E21D900385C93 /* Operator+.swift */; };
+		99871C6F214E21D900385C93 /* Operator+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C6B214E21D900385C93 /* Operator+.swift */; };
+		99871C72214E244B00385C93 /* AuthenticateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C71214E244B00385C93 /* AuthenticateModel.swift */; };
+		99871C73214E244B00385C93 /* AuthenticateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C71214E244B00385C93 /* AuthenticateModel.swift */; };
+		99871C74214E244B00385C93 /* AuthenticateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C71214E244B00385C93 /* AuthenticateModel.swift */; };
+		99871C75214E244B00385C93 /* AuthenticateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C71214E244B00385C93 /* AuthenticateModel.swift */; };
+		99871C86214E2E8100385C93 /* DecodeAuthTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C81214E2E5D00385C93 /* DecodeAuthTest.swift */; };
+		99871C87214E2E8200385C93 /* DecodeAuthTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C81214E2E5D00385C93 /* DecodeAuthTest.swift */; };
+		99871C88214E2E8300385C93 /* DecodeAuthTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C81214E2E5D00385C93 /* DecodeAuthTest.swift */; };
+		99871C92214E43AC00385C93 /* ElsevierKitAuthenticate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C91214E43AC00385C93 /* ElsevierKitAuthenticate.swift */; };
+		99871C93214E43AC00385C93 /* ElsevierKitAuthenticate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C91214E43AC00385C93 /* ElsevierKitAuthenticate.swift */; };
+		99871C94214E43AC00385C93 /* ElsevierKitAuthenticate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C91214E43AC00385C93 /* ElsevierKitAuthenticate.swift */; };
+		99871C95214E43AC00385C93 /* ElsevierKitAuthenticate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C91214E43AC00385C93 /* ElsevierKitAuthenticate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +90,13 @@
 		99871C4D214D800200385C93 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/tvOS/Alamofire.framework; sourceTree = "<group>"; };
 		99871C4F214D800F00385C93 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/Mac/Alamofire.framework; sourceTree = "<group>"; };
 		99871C51214D801C00385C93 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		99871C5A214DB80700385C93 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		99871C5F214DC98100385C93 /* Authenticate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authenticate.swift; sourceTree = "<group>"; };
+		99871C65214DCC4800385C93 /* PlatformType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformType.swift; sourceTree = "<group>"; };
+		99871C6B214E21D900385C93 /* Operator+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Operator+.swift"; sourceTree = "<group>"; };
+		99871C71214E244B00385C93 /* AuthenticateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticateModel.swift; sourceTree = "<group>"; };
+		99871C81214E2E5D00385C93 /* DecodeAuthTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodeAuthTest.swift; sourceTree = "<group>"; };
+		99871C91214E43AC00385C93 /* ElsevierKitAuthenticate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElsevierKitAuthenticate.swift; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,8 +163,8 @@
 		99871BC9214D7A5E00385C93 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				99871C42214D7B9D00385C93 /* Supporting Files */,
 				99871BCB214D7A5E00385C93 /* ElsevierKitTests */,
+				99871C42214D7B9D00385C93 /* Supporting Files */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -139,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				99871BCD214D7A5E00385C93 /* ElsevierKitTests.swift */,
+				99871C81214E2E5D00385C93 /* DecodeAuthTest.swift */,
 			);
 			path = ElsevierKitTests;
 			sourceTree = "<group>";
@@ -146,17 +181,13 @@
 		99871BCE214D7A5E00385C93 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				99871BCF214D7A5E00385C93 /* ElsevierKit */,
+				99871C6A214E21C800385C93 /* Extension */,
+				99871C59214DB7F400385C93 /* Enum */,
+				99871C64214DCBDA00385C93 /* Core */,
+				99871C53214DB7C000385C93 /* Endpoints */,
+				99871C70214E243300385C93 /* Model */,
 			);
 			path = Sources;
-			sourceTree = "<group>";
-		};
-		99871BCF214D7A5E00385C93 /* ElsevierKit */ = {
-			isa = PBXGroup;
-			children = (
-				99871BD0214D7A5E00385C93 /* ElsevierKit.swift */,
-			);
-			path = ElsevierKit;
 			sourceTree = "<group>";
 		};
 		99871C41214D7B9700385C93 /* Supporting Files */ = {
@@ -216,6 +247,48 @@
 				99871C51214D801C00385C93 /* Alamofire.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		99871C53214DB7C000385C93 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				99871C5F214DC98100385C93 /* Authenticate.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		99871C59214DB7F400385C93 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				99871C5A214DB80700385C93 /* API.swift */,
+				99871C65214DCC4800385C93 /* PlatformType.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		99871C64214DCBDA00385C93 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				99871BD0214D7A5E00385C93 /* ElsevierKit.swift */,
+				99871C91214E43AC00385C93 /* ElsevierKitAuthenticate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		99871C6A214E21C800385C93 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				99871C6B214E21D900385C93 /* Operator+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		99871C70214E243300385C93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				99871C71214E244B00385C93 /* AuthenticateModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		OBJ_14 /* Products */ = {
@@ -431,7 +504,8 @@
 					};
 					99871C0D214D7B3C00385C93 = {
 						CreatedOnToolsVersion = 9.4.1;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = Y3FSN97W3M;
+						ProvisioningStyle = Automatic;
 					};
 					99871C21214D7B4900385C93 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -523,6 +597,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99871C60214DC98100385C93 /* Authenticate.swift in Sources */,
+				99871C72214E244B00385C93 /* AuthenticateModel.swift in Sources */,
+				99871C92214E43AC00385C93 /* ElsevierKitAuthenticate.swift in Sources */,
+				99871C66214DCC4800385C93 /* PlatformType.swift in Sources */,
+				99871C6C214E21D900385C93 /* Operator+.swift in Sources */,
+				99871C5B214DB80700385C93 /* API.swift in Sources */,
 				99871C39214D7B6E00385C93 /* ElsevierKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -532,6 +612,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99871C3D214D7B7700385C93 /* ElsevierKitTests.swift in Sources */,
+				99871C86214E2E8100385C93 /* DecodeAuthTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,6 +620,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99871C63214DC98100385C93 /* Authenticate.swift in Sources */,
+				99871C75214E244B00385C93 /* AuthenticateModel.swift in Sources */,
+				99871C95214E43AC00385C93 /* ElsevierKitAuthenticate.swift in Sources */,
+				99871C69214DCC4800385C93 /* PlatformType.swift in Sources */,
+				99871C6F214E21D900385C93 /* Operator+.swift in Sources */,
+				99871C5E214DB80700385C93 /* API.swift in Sources */,
 				99871C3A214D7B6E00385C93 /* ElsevierKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -547,6 +634,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99871C62214DC98100385C93 /* Authenticate.swift in Sources */,
+				99871C74214E244B00385C93 /* AuthenticateModel.swift in Sources */,
+				99871C94214E43AC00385C93 /* ElsevierKitAuthenticate.swift in Sources */,
+				99871C68214DCC4800385C93 /* PlatformType.swift in Sources */,
+				99871C6E214E21D900385C93 /* Operator+.swift in Sources */,
+				99871C5D214DB80700385C93 /* API.swift in Sources */,
 				99871C3B214D7B7000385C93 /* ElsevierKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -556,6 +649,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99871C40214D7B7A00385C93 /* ElsevierKitTests.swift in Sources */,
+				99871C88214E2E8300385C93 /* DecodeAuthTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,6 +657,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99871C61214DC98100385C93 /* Authenticate.swift in Sources */,
+				99871C73214E244B00385C93 /* AuthenticateModel.swift in Sources */,
+				99871C93214E43AC00385C93 /* ElsevierKitAuthenticate.swift in Sources */,
+				99871C67214DCC4800385C93 /* PlatformType.swift in Sources */,
+				99871C6D214E21D900385C93 /* Operator+.swift in Sources */,
+				99871C5C214DB80700385C93 /* API.swift in Sources */,
 				99871C3C214D7B7100385C93 /* ElsevierKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -572,6 +672,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99871C3F214D7B7900385C93 /* ElsevierKitTests.swift in Sources */,
+				99871C87214E2E8200385C93 /* DecodeAuthTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
