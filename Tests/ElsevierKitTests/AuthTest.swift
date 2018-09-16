@@ -17,7 +17,7 @@ extension ElsevierKitTests {
 
     func testAuth() {
         let expect = self.expectation(description: #function)
-        self.elsevier.auth.authenticate(apiKey: Secrets.API.scopus, platform: .scopus, success: { model in
+        self.elsevier.auth.authenticate(apiKey: Secrets.apiKey, success: { model in
             expect.fulfill()
             XCTAssertNotNil(model)
         }) { error in

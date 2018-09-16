@@ -11,12 +11,12 @@ public extension ElsevierKitAuthenticate {
     /// https://dev.elsevier.com/documentation/AuthenticationAPI.wadl
     func authenticate(apiKey key: String,
                       institutionToken token: String? = nil,
-                      platform: PlatformType,
+                      platform: PlatformType? = nil,
                       success: ElsevierKit.SuccessHandler<AuthenticateModel>? = nil,
                       failure: ElsevierKit.FailureHandler? = nil) {
 
         var parameters: Parameters = Parameters()
-        parameters["platform"] = platform.rawValue
+        parameters["platform"] ?= platform?.rawValue
 
         var headers: HTTPHeaders = HTTPHeaders()
         headers["X-ELS-APIKey"] = key
