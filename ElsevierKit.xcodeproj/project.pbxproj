@@ -41,13 +41,16 @@
 		99871C73214E244B00385C93 /* AuthenticateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C71214E244B00385C93 /* AuthenticateModel.swift */; };
 		99871C74214E244B00385C93 /* AuthenticateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C71214E244B00385C93 /* AuthenticateModel.swift */; };
 		99871C75214E244B00385C93 /* AuthenticateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C71214E244B00385C93 /* AuthenticateModel.swift */; };
-		99871C86214E2E8100385C93 /* DecodeAuthTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C81214E2E5D00385C93 /* DecodeAuthTest.swift */; };
-		99871C87214E2E8200385C93 /* DecodeAuthTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C81214E2E5D00385C93 /* DecodeAuthTest.swift */; };
-		99871C88214E2E8300385C93 /* DecodeAuthTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C81214E2E5D00385C93 /* DecodeAuthTest.swift */; };
+		99871C86214E2E8100385C93 /* AuthTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C81214E2E5D00385C93 /* AuthTest.swift */; };
+		99871C87214E2E8200385C93 /* AuthTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C81214E2E5D00385C93 /* AuthTest.swift */; };
+		99871C88214E2E8300385C93 /* AuthTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C81214E2E5D00385C93 /* AuthTest.swift */; };
 		99871C92214E43AC00385C93 /* ElsevierKitAuthenticate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C91214E43AC00385C93 /* ElsevierKitAuthenticate.swift */; };
 		99871C93214E43AC00385C93 /* ElsevierKitAuthenticate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C91214E43AC00385C93 /* ElsevierKitAuthenticate.swift */; };
 		99871C94214E43AC00385C93 /* ElsevierKitAuthenticate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C91214E43AC00385C93 /* ElsevierKitAuthenticate.swift */; };
 		99871C95214E43AC00385C93 /* ElsevierKitAuthenticate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C91214E43AC00385C93 /* ElsevierKitAuthenticate.swift */; };
+		99871CA2214E64F600385C93 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C9D214E61C700385C93 /* Secrets.swift */; };
+		99871CA3214E64F600385C93 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C9D214E61C700385C93 /* Secrets.swift */; };
+		99871CA4214E64F600385C93 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C9D214E61C700385C93 /* Secrets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,8 +98,9 @@
 		99871C65214DCC4800385C93 /* PlatformType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformType.swift; sourceTree = "<group>"; };
 		99871C6B214E21D900385C93 /* Operator+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Operator+.swift"; sourceTree = "<group>"; };
 		99871C71214E244B00385C93 /* AuthenticateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticateModel.swift; sourceTree = "<group>"; };
-		99871C81214E2E5D00385C93 /* DecodeAuthTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodeAuthTest.swift; sourceTree = "<group>"; };
+		99871C81214E2E5D00385C93 /* AuthTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTest.swift; sourceTree = "<group>"; };
 		99871C91214E43AC00385C93 /* ElsevierKitAuthenticate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElsevierKitAuthenticate.swift; sourceTree = "<group>"; };
+		99871C9D214E61C700385C93 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -172,8 +176,9 @@
 		99871BCB214D7A5E00385C93 /* ElsevierKitTests */ = {
 			isa = PBXGroup;
 			children = (
+				99871C9D214E61C700385C93 /* Secrets.swift */,
 				99871BCD214D7A5E00385C93 /* ElsevierKitTests.swift */,
-				99871C81214E2E5D00385C93 /* DecodeAuthTest.swift */,
+				99871C81214E2E5D00385C93 /* AuthTest.swift */,
 			);
 			path = ElsevierKitTests;
 			sourceTree = "<group>";
@@ -612,7 +617,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				99871C3D214D7B7700385C93 /* ElsevierKitTests.swift in Sources */,
-				99871C86214E2E8100385C93 /* DecodeAuthTest.swift in Sources */,
+				99871CA4214E64F600385C93 /* Secrets.swift in Sources */,
+				99871C86214E2E8100385C93 /* AuthTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -649,7 +655,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				99871C40214D7B7A00385C93 /* ElsevierKitTests.swift in Sources */,
-				99871C88214E2E8300385C93 /* DecodeAuthTest.swift in Sources */,
+				99871CA2214E64F600385C93 /* Secrets.swift in Sources */,
+				99871C88214E2E8300385C93 /* AuthTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -672,7 +679,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				99871C3F214D7B7900385C93 /* ElsevierKitTests.swift in Sources */,
-				99871C87214E2E8200385C93 /* DecodeAuthTest.swift in Sources */,
+				99871CA3214E64F600385C93 /* Secrets.swift in Sources */,
+				99871C87214E2E8200385C93 /* AuthTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

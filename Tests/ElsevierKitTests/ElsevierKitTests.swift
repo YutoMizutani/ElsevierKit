@@ -28,5 +28,6 @@ final class ElsevierKitTests: XCTestCase {
 
     static var allTests = [
         ("testDecodeAuth", testDecodeAuth),
+        ("testAuth", testAuth),
     ]
 }
