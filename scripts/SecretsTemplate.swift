@@ -8,7 +8,5 @@
 import Foundation
 
 public enum Secrets {
-    public enum API {
-        public static let scopus: String = "SCOPUS_API_KAY"
-    }
+    public static let apiKey: String = "API_KAY"
 }
