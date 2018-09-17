@@ -17,7 +17,7 @@ extension ElsevierKitTests {
 
     /// ScienceDirect Search API test
     func testScienceDirect() {
-        let expect = self.expectation(description: #function)
+        let expect: XCTestExpectation = self.expectation(description: #function)
         self.elsevier.scienceDirect.search(authors: "Yuto Mizutani", show: 10, success: { model in
             expect.fulfill()
             XCTAssertNotNil(model)
@@ -25,6 +25,6 @@ extension ElsevierKitTests {
             expect.fulfill()
             XCTFail(error.localizedDescription)
         }
-        self.wait(for: [expect], timeout: 10)
+        self.wait(for: [expect], timeout: self.timeout)
     }
 }

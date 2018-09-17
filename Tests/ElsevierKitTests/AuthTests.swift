@@ -17,7 +17,7 @@ extension ElsevierKitTests {
 
     /// Authentication API test
     func testAuth() {
-        let expect = self.expectation(description: #function)
+        let expect: XCTestExpectation = self.expectation(description: #function)
         self.elsevier.auth.authenticate(apiKey: Secrets.apiKey, success: { [weak self] in
             expect.fulfill()
             XCTAssertNotNil(self)
@@ -27,6 +27,6 @@ extension ElsevierKitTests {
             expect.fulfill()
             XCTFail(error.localizedDescription)
         }
-        self.wait(for: [expect], timeout: 10)
+        self.wait(for: [expect], timeout: self.timeout)
     }
 }

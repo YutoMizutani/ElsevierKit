@@ -2,6 +2,7 @@ import XCTest
 @testable import ElsevierKit
 
 final class ElsevierKitTests: XCTestCase {
+    let timeout: TimeInterval = 60
     var elsevier: ElsevierKit!
 
     override func setUp() {
@@ -12,7 +13,7 @@ final class ElsevierKitTests: XCTestCase {
     }
 
     func decode<T: Decodable>(_ url: String, model: T.Type) {
-        let expect = self.expectation(description: url)
+        let expect: XCTestExpectation = self.expectation(description: url)
 
         let success: ElsevierKit.SuccessHandler<T> = { model in
             expect.fulfill()
@@ -24,7 +25,7 @@ final class ElsevierKitTests: XCTestCase {
         }
 
         self.elsevier.request(url, success: success, failure: failure)
-        self.wait(for: [expect], timeout: 10)
+        self.wait(for: [expect], timeout: self.timeout)
     }
 
     static var allTests = [
