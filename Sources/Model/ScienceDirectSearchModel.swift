@@ -7,6 +7,9 @@
 
 import Foundation
 
+/**
+ ScienceDirect Search Model
+ */
 public struct ScienceDirectSearchModel: Codable {
     public let resultsFound: Int?
 
