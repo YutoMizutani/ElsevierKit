@@ -8,6 +8,7 @@ final class ElsevierKitTests: XCTestCase {
         super.setUp()
 
         self.elsevier = ElsevierKit.shared
+        self.elsevier.header = ElsevierHeader(apiKey: Secrets.apiKey)
     }
 
     func decode<T: Decodable>(_ url: String, model: T.Type) {
@@ -29,5 +30,7 @@ final class ElsevierKitTests: XCTestCase {
     static var allTests = [
         ("testDecodeAuth", testDecodeAuth),
         ("testAuth", testAuth),
+        ("testDecodeScienceDirect", testDecodeScienceDirect),
+        ("testScienceDirect", testScienceDirect),
     ]
 }

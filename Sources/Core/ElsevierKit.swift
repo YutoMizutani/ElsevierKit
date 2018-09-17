@@ -13,6 +13,9 @@ public class ElsevierKit {
     /// Elsevier Authentication
     public let auth = ElsevierKitAuthenticate.shared
 
+    /// Elsevier ScienceDirect
+    public let scienceDirect = ElsevierKitScienceDirect.shared
+
     // MARK: - Types
 
     /// Empty success handler
@@ -32,6 +35,11 @@ public class ElsevierKit {
     /// Use of Singleton pattern with private access
     private init() {}
 
+    // MARK: - Token
+
+    /// HTTP Header
+    public var header: ElsevierHeader?
+
     // MARK: - Requests
 
     /**
@@ -41,29 +49,33 @@ public class ElsevierKit {
      - url: API URL
      - method: HTTP method
      - parameters: Query parameters
-     - headers: HTTP headers
      - success: Success handler
      - failure: Failure handler
      */
     func request<T: Decodable>(_ url: String,
                                method: HTTPMethod = .get,
                                parameters: Parameters? = nil,
-                               headers: HTTPHeaders? = nil,
+                               encoding: ParameterEncoding = URLEncoding.default,
                                success: SuccessHandler<T>?,
                                failure: FailureHandler?) {
 
-        var headers = headers ?? HTTPHeaders()
-        headers["User-Agent"] = headers["User-Agent"] ?? "ElsevierKit"
-        headers["Accept"] = "application/json"
+        guard let headers = self.header?.create() else {
+            failure?(ElsevierKitError.noAuthorization)
+            return
+        }
 
-        Alamofire.request(url, method: method, parameters: parameters, encoding: URLEncoding.default, headers: headers)
+        Alamofire.request(url, method: method, parameters: parameters, encoding: encoding, headers: headers)
             .responseData { response in
                 switch response.result {
                 case .success:
                     guard let success = success, let data = response.data else { return }
                     let decoder: JSONDecoder = JSONDecoder()
-                    guard let model = try? decoder.decode(T.self, from: data) else { return }
-                    success(model)
+                    do {
+                        let model = try decoder.decode(T.self, from: data)
+                        success(model)
+                    } catch let error {
+                        failure?(ElsevierKitError.decoding(message: error.localizedDescription))
+                    }
                 case .failure(let error):
                     failure?(error)
                 }
