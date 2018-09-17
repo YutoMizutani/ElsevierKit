@@ -47,5 +47,5 @@ public extension ElsevierKitAuthenticate {
                                    failure: { error in
                                        failure?(error)
                                    })
-    }    
+    }
 }

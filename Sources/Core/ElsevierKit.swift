@@ -79,6 +79,6 @@ public class ElsevierKit {
                 case .failure(let error):
                     failure?(error)
                 }
-        }
+            }
     }
 }
