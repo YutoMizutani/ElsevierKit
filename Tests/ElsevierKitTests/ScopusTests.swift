@@ -17,6 +17,7 @@ extension ElsevierKitTests {
         XCTAssert(true)
     }
 
+    #if RELEASE
     /// ScienceDirect Search API test
     func testScopus() {
         let expect: XCTestExpectation = self.expectation(description: #function)
@@ -29,4 +30,5 @@ extension ElsevierKitTests {
         }
         self.wait(for: [expect], timeout: self.timeout)
     }
+    #endif
 }
