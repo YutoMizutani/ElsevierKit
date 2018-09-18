@@ -22,4 +22,14 @@ public struct API {
         /// ScienceDirect Search API V2
         public static let search: String = "https://api.elsevier.com/content/search/sciencedirect"
     }
+
+    /// ScienceDirect APIs
+    public enum Scopus {
+        /// Affiliation Search API
+        public static let affiliation: String = "https://api.elsevier.com/content/search/affiliation"
+        /// Author Search API
+        public static let author: String = "https://api.elsevier.com/content/search/author"
+        /// Scopus Search API
+        public static let search: String = "https://api.elsevier.com/content/search/scopus"
+    }
 }

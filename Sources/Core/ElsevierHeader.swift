@@ -43,8 +43,14 @@ public struct ElsevierHeader {
      Represents the version of the resource that should be received. Multiple attributes can
 
      be submitted by separating with commas or semicolons. Options include:
+
+     * facetexpand - adds new fields under each facet returned (where applicable)
+
+     * allexpand - (same as facetexpand)
+
+     * new - returns the most recent and prototyped features
      */
-    public var resourceVersion: String?
+    public var resourceVersion: ResourceVersionType?
 
     init(apiKey key: String) {
         self.apiKey = key
@@ -61,7 +67,7 @@ public extension ElsevierHeader {
         header["X-ELS-Authtoken"] ?= self.authToken
         header["X-ELS-Insttoken"] ?= self.institutionToken
         header["X-ELS-ReqId"] ?= self.requestID
-        header["X-ELS-ResourceVersion"] ?= self.resourceVersion
+        header["X-ELS-ResourceVersion"] ?= self.resourceVersion?.rawValue
         return header
     }
 }
