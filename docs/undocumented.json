@@ -1,0 +1,236 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Core/ElsevierKitAuthenticate.swift",
+      "line": null,
+      "symbol": "ElsevierKitAuthenticate",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Core/ElsevierKitAuthenticate.swift",
+      "line": 10,
+      "symbol": "ElsevierKitAuthenticate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Core/ElsevierKitScienceDirect.swift",
+      "line": null,
+      "symbol": "ElsevierKitScienceDirect",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Core/ElsevierKitScienceDirect.swift",
+      "line": 10,
+      "symbol": "ElsevierKitScienceDirect",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SortType.swift",
+      "line": 18,
+      "symbol": "SortType.date",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SortType.swift",
+      "line": 18,
+      "symbol": "SortType.relevance",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/AuthenticateModel.swift",
+      "line": 10,
+      "symbol": "AuthenticateModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/AuthenticateModel.swift",
+      "line": 11,
+      "symbol": "AuthenticateModel.authenticateResponse",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/AuthenticateModel.swift",
+      "line": 13,
+      "symbol": "AuthenticateModel.Response",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/AuthenticateModel.swift",
+      "line": 14,
+      "symbol": "AuthenticateModel.Response.choice",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/AuthenticateModel.swift",
+      "line": 15,
+      "symbol": "AuthenticateModel.Response.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/AuthenticateModel.swift",
+      "line": 16,
+      "symbol": "AuthenticateModel.Response.authToken",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
+      "line": 10,
+      "symbol": "ScienceDirectSearchModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
+      "line": 11,
+      "symbol": "ScienceDirectSearchModel.resultsFound",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
+      "line": 13,
+      "symbol": "ScienceDirectSearchModel.results",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
+      "line": 15,
+      "symbol": "ScienceDirectSearchModel.Result",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
+      "line": 17,
+      "symbol": "ScienceDirectSearchModel.Result.authors",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
+      "line": 19,
+      "symbol": "ScienceDirectSearchModel.Result.doi",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
+      "line": 21,
+      "symbol": "ScienceDirectSearchModel.Result.loadDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
+      "line": 23,
+      "symbol": "ScienceDirectSearchModel.Result.isOpenAccess",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
+      "line": 25,
+      "symbol": "ScienceDirectSearchModel.Result.pages",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
+      "line": 27,
+      "symbol": "ScienceDirectSearchModel.Result.pii",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
+      "line": 29,
+      "symbol": "ScienceDirectSearchModel.Result.publicationDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
+      "line": 31,
+      "symbol": "ScienceDirectSearchModel.Result.sourceTitle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
+      "line": 33,
+      "symbol": "ScienceDirectSearchModel.Result.title",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
+      "line": 35,
+      "symbol": "ScienceDirectSearchModel.Result.uri",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
+      "line": 37,
+      "symbol": "ScienceDirectSearchModel.Result.volumeIssue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
+      "line": 53,
+      "symbol": "ScienceDirectSearchModel.Result.Author",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
+      "line": 54,
+      "symbol": "ScienceDirectSearchModel.Result.Author.order",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
+      "line": 55,
+      "symbol": "ScienceDirectSearchModel.Result.Author.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
+      "line": 58,
+      "symbol": "ScienceDirectSearchModel.Result.Pages",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
+      "line": 59,
+      "symbol": "ScienceDirectSearchModel.Result.Pages.first",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
+      "line": 60,
+      "symbol": "ScienceDirectSearchModel.Result.Pages.last",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit"
+}

@@ -9,6 +9,17 @@ import Foundation
 
 /// Elsevier API
 public struct API {
-    /// Elsevier API
-    public static let Authenticate: String = "https://api.elsevier.com/authenticate"
+
+    // MARK: - General Purpose APIs
+
+    /// Authentication API
+    public static let authentication: String = "https://api.elsevier.com/authenticate"
+
+    // MARK: - Product Specific APIs
+
+    /// ScienceDirect APIs
+    public enum ScienceDirect {
+        /// ScienceDirect Search API V2
+        public static let search: String = "https://api.elsevier.com/content/search/sciencedirect"
+    }
 }

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ElsevierHeader Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/ElsevierHeader" class="dashAnchor"></a>
+    <a title="ElsevierHeader Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (52% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        ElsevierHeader Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/ElsevierKit.html">ElsevierKit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ElsevierKitAuthenticate.html">ElsevierKitAuthenticate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ElsevierKitScienceDirect.html">ElsevierKitScienceDirect</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/ElsevierKitError.html">ElsevierKitError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PlatformType.html">PlatformType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SortType.html">SortType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/API.html">API</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/API/ScienceDirect.html">– ScienceDirect</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AuthenticateModel.html">AuthenticateModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AuthenticateModel/Response.html">– Response</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ElsevierHeader.html">ElsevierHeader</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ScienceDirectSearchModel.html">ScienceDirectSearchModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ScienceDirectSearchModel/Result.html">– Result</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>ElsevierHeader</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ElsevierHeader</span></code></pre>
+
+                </div>
+              </div>
+            <p>Header params</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit0A6HeaderV6acceptSSvp"></a>
+                    <a name="//apple_ref/swift/Property/accept" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit0A6HeaderV6acceptSSvp">accept</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This represents the acceptable mime types in which the response can be generated. This can also be submitted as the query string parameter <q>httpAccept</q>. Currently, only JSON format responses are supported.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">accept</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit0A6HeaderV13authorizationSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/authorization" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit0A6HeaderV13authorizationSSSgvp">authorization</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This header field contains the OAuth bearer access token in which the format of the field is <q>Bearer <token></q> (where the token represents the end-user session key). The presence of a bearer token implies the request will be executed against user-based entitlements. The Authorization field overrides X-ELS-Authtoken.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">authorization</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit0A6HeaderV6apiKeySSvp"></a>
+                    <a name="//apple_ref/swift/Property/apiKey" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit0A6HeaderV6apiKeySSvp">apiKey</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This represents a unique application developer key providing access to API resources. This key can also be submitted as the query string parameter <q>apiKey</q></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">apiKey</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit0A6HeaderV9authTokenSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/authToken" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit0A6HeaderV9authTokenSSSgvp">authToken</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This represents a end-user session. If provided, this token is used to validate the credentials needed to access content in this resource. This token can also be submitted through the HTTP header <q>Authorization</q> or the query string parameter <q>access_token</q>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">authToken</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit0A6HeaderV16institutionTokenSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/institutionToken" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit0A6HeaderV16institutionTokenSSSgvp">institutionToken</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This represents a institution token. If provided, this key (in combination with its associated APIKey) is used to establish the credentials needed to access content in this resource. This token can also be provided through the query string parameter <q>insttoken</q>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">institutionToken</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit0A6HeaderV9requestIDSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/requestID" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit0A6HeaderV9requestIDSSSgvp">requestID</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is a client-defined request identifier, which will be logged in all trace messages of the service. This identifier can be used to track a specific transaction in the service&rsquo;s message logs. It will also be returned as an HTTP header in the corresponding response. Note that this should be a unique identifier for the client, and used to track a single transaction.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">requestID</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit0A6HeaderV15resourceVersionSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/resourceVersion" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit0A6HeaderV15resourceVersionSSSgvp">resourceVersion</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the version of the resource that should be received. Multiple attributes can</p>
+
+<p>be submitted by separating with commas or semicolons. Options include:</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">resourceVersion</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit0A6HeaderV6creates10DictionaryVyS2SGyF"></a>
+                    <a name="//apple_ref/swift/Method/create()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit0A6HeaderV6creates10DictionaryVyS2SGyF">create()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Create HTTP headers</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">create</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">HTTPHeaders</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2018-09-17)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

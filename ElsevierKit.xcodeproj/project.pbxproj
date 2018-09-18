@@ -41,9 +41,9 @@
 		99871C73214E244B00385C93 /* AuthenticateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C71214E244B00385C93 /* AuthenticateModel.swift */; };
 		99871C74214E244B00385C93 /* AuthenticateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C71214E244B00385C93 /* AuthenticateModel.swift */; };
 		99871C75214E244B00385C93 /* AuthenticateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C71214E244B00385C93 /* AuthenticateModel.swift */; };
-		99871C86214E2E8100385C93 /* AuthTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C81214E2E5D00385C93 /* AuthTest.swift */; };
-		99871C87214E2E8200385C93 /* AuthTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C81214E2E5D00385C93 /* AuthTest.swift */; };
-		99871C88214E2E8300385C93 /* AuthTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C81214E2E5D00385C93 /* AuthTest.swift */; };
+		99871C86214E2E8100385C93 /* AuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C81214E2E5D00385C93 /* AuthTests.swift */; };
+		99871C87214E2E8200385C93 /* AuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C81214E2E5D00385C93 /* AuthTests.swift */; };
+		99871C88214E2E8300385C93 /* AuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C81214E2E5D00385C93 /* AuthTests.swift */; };
 		99871C92214E43AC00385C93 /* ElsevierKitAuthenticate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C91214E43AC00385C93 /* ElsevierKitAuthenticate.swift */; };
 		99871C93214E43AC00385C93 /* ElsevierKitAuthenticate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C91214E43AC00385C93 /* ElsevierKitAuthenticate.swift */; };
 		99871C94214E43AC00385C93 /* ElsevierKitAuthenticate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C91214E43AC00385C93 /* ElsevierKitAuthenticate.swift */; };
@@ -51,6 +51,33 @@
 		99871CA2214E64F600385C93 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C9D214E61C700385C93 /* Secrets.swift */; };
 		99871CA3214E64F600385C93 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C9D214E61C700385C93 /* Secrets.swift */; };
 		99871CA4214E64F600385C93 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871C9D214E61C700385C93 /* Secrets.swift */; };
+		99871CA6214E91F700385C93 /* ElsevierKitScienceDirect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871CA5214E91F700385C93 /* ElsevierKitScienceDirect.swift */; };
+		99871CA7214E91F700385C93 /* ElsevierKitScienceDirect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871CA5214E91F700385C93 /* ElsevierKitScienceDirect.swift */; };
+		99871CA8214E91F700385C93 /* ElsevierKitScienceDirect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871CA5214E91F700385C93 /* ElsevierKitScienceDirect.swift */; };
+		99871CA9214E91F700385C93 /* ElsevierKitScienceDirect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871CA5214E91F700385C93 /* ElsevierKitScienceDirect.swift */; };
+		99871CAB214E921A00385C93 /* ScienceDirect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871CAA214E921A00385C93 /* ScienceDirect.swift */; };
+		99871CAC214E921A00385C93 /* ScienceDirect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871CAA214E921A00385C93 /* ScienceDirect.swift */; };
+		99871CAD214E921A00385C93 /* ScienceDirect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871CAA214E921A00385C93 /* ScienceDirect.swift */; };
+		99871CAE214E921A00385C93 /* ScienceDirect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871CAA214E921A00385C93 /* ScienceDirect.swift */; };
+		99871CB0214E930000385C93 /* ScienceDirectSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871CAF214E930000385C93 /* ScienceDirectSearchModel.swift */; };
+		99871CB1214E930000385C93 /* ScienceDirectSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871CAF214E930000385C93 /* ScienceDirectSearchModel.swift */; };
+		99871CB2214E930000385C93 /* ScienceDirectSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871CAF214E930000385C93 /* ScienceDirectSearchModel.swift */; };
+		99871CB3214E930000385C93 /* ScienceDirectSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871CAF214E930000385C93 /* ScienceDirectSearchModel.swift */; };
+		99871CB5214F83DA00385C93 /* ElsevierHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871CB4214F83DA00385C93 /* ElsevierHeader.swift */; };
+		99871CB6214F83DA00385C93 /* ElsevierHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871CB4214F83DA00385C93 /* ElsevierHeader.swift */; };
+		99871CB7214F83DA00385C93 /* ElsevierHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871CB4214F83DA00385C93 /* ElsevierHeader.swift */; };
+		99871CB8214F83DA00385C93 /* ElsevierHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871CB4214F83DA00385C93 /* ElsevierHeader.swift */; };
+		99871CBB214FBC8000385C93 /* ErrorHandring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871CBA214FBC8000385C93 /* ErrorHandring.swift */; };
+		99871CBC214FBC8000385C93 /* ErrorHandring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871CBA214FBC8000385C93 /* ErrorHandring.swift */; };
+		99871CBD214FBC8000385C93 /* ErrorHandring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871CBA214FBC8000385C93 /* ErrorHandring.swift */; };
+		99871CBE214FBC8000385C93 /* ErrorHandring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871CBA214FBC8000385C93 /* ErrorHandring.swift */; };
+		99871CC4214FC2E400385C93 /* ScienceDirectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871CBF214FC2B000385C93 /* ScienceDirectTests.swift */; };
+		99871CC5214FC2E600385C93 /* ScienceDirectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871CBF214FC2B000385C93 /* ScienceDirectTests.swift */; };
+		99871CC6214FC2E800385C93 /* ScienceDirectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871CBF214FC2B000385C93 /* ScienceDirectTests.swift */; };
+		99871CD1214FCA8300385C93 /* SortType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871CD0214FCA8300385C93 /* SortType.swift */; };
+		99871CD2214FCA8300385C93 /* SortType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871CD0214FCA8300385C93 /* SortType.swift */; };
+		99871CD3214FCA8300385C93 /* SortType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871CD0214FCA8300385C93 /* SortType.swift */; };
+		99871CD4214FCA8300385C93 /* SortType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871CD0214FCA8300385C93 /* SortType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,9 +125,16 @@
 		99871C65214DCC4800385C93 /* PlatformType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformType.swift; sourceTree = "<group>"; };
 		99871C6B214E21D900385C93 /* Operator+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Operator+.swift"; sourceTree = "<group>"; };
 		99871C71214E244B00385C93 /* AuthenticateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticateModel.swift; sourceTree = "<group>"; };
-		99871C81214E2E5D00385C93 /* AuthTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTest.swift; sourceTree = "<group>"; };
+		99871C81214E2E5D00385C93 /* AuthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTests.swift; sourceTree = "<group>"; };
 		99871C91214E43AC00385C93 /* ElsevierKitAuthenticate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElsevierKitAuthenticate.swift; sourceTree = "<group>"; };
 		99871C9D214E61C700385C93 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		99871CA5214E91F700385C93 /* ElsevierKitScienceDirect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElsevierKitScienceDirect.swift; sourceTree = "<group>"; };
+		99871CAA214E921A00385C93 /* ScienceDirect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceDirect.swift; sourceTree = "<group>"; };
+		99871CAF214E930000385C93 /* ScienceDirectSearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceDirectSearchModel.swift; sourceTree = "<group>"; };
+		99871CB4214F83DA00385C93 /* ElsevierHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElsevierHeader.swift; sourceTree = "<group>"; };
+		99871CBA214FBC8000385C93 /* ErrorHandring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandring.swift; sourceTree = "<group>"; };
+		99871CBF214FC2B000385C93 /* ScienceDirectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceDirectTests.swift; sourceTree = "<group>"; };
+		99871CD0214FCA8300385C93 /* SortType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortType.swift; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -178,7 +212,8 @@
 			children = (
 				99871C9D214E61C700385C93 /* Secrets.swift */,
 				99871BCD214D7A5E00385C93 /* ElsevierKitTests.swift */,
-				99871C81214E2E5D00385C93 /* AuthTest.swift */,
+				99871C81214E2E5D00385C93 /* AuthTests.swift */,
+				99871CBF214FC2B000385C93 /* ScienceDirectTests.swift */,
 			);
 			path = ElsevierKitTests;
 			sourceTree = "<group>";
@@ -186,6 +221,7 @@
 		99871BCE214D7A5E00385C93 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				99871CB9214FBC7600385C93 /* Error */,
 				99871C6A214E21C800385C93 /* Extension */,
 				99871C59214DB7F400385C93 /* Enum */,
 				99871C64214DCBDA00385C93 /* Core */,
@@ -258,6 +294,7 @@
 			isa = PBXGroup;
 			children = (
 				99871C5F214DC98100385C93 /* Authenticate.swift */,
+				99871CAA214E921A00385C93 /* ScienceDirect.swift */,
 			);
 			path = Endpoints;
 			sourceTree = "<group>";
@@ -267,6 +304,7 @@
 			children = (
 				99871C5A214DB80700385C93 /* API.swift */,
 				99871C65214DCC4800385C93 /* PlatformType.swift */,
+				99871CD0214FCA8300385C93 /* SortType.swift */,
 			);
 			path = Enum;
 			sourceTree = "<group>";
@@ -276,6 +314,8 @@
 			children = (
 				99871BD0214D7A5E00385C93 /* ElsevierKit.swift */,
 				99871C91214E43AC00385C93 /* ElsevierKitAuthenticate.swift */,
+				99871CA5214E91F700385C93 /* ElsevierKitScienceDirect.swift */,
+				99871CB4214F83DA00385C93 /* ElsevierHeader.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -292,8 +332,17 @@
 			isa = PBXGroup;
 			children = (
 				99871C71214E244B00385C93 /* AuthenticateModel.swift */,
+				99871CAF214E930000385C93 /* ScienceDirectSearchModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		99871CB9214FBC7600385C93 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				99871CBA214FBC8000385C93 /* ErrorHandring.swift */,
+			);
+			path = Error;
 			sourceTree = "<group>";
 		};
 		OBJ_14 /* Products */ = {
@@ -364,6 +413,7 @@
 				99871BD9214D7B1C00385C93 /* Frameworks */,
 				99871BDA214D7B1C00385C93 /* Headers */,
 				99871BDB214D7B1C00385C93 /* Resources */,
+				99871CD5214FE68200385C93 /* SwiftLint Run Script */,
 			);
 			buildRules = (
 			);
@@ -400,6 +450,7 @@
 				99871BF5214D7B2F00385C93 /* Frameworks */,
 				99871BF6214D7B2F00385C93 /* Headers */,
 				99871BF7214D7B2F00385C93 /* Resources */,
+				99871CD8214FE69200385C93 /* SwiftLint Run Script */,
 			);
 			buildRules = (
 			);
@@ -418,6 +469,7 @@
 				99871C02214D7B3C00385C93 /* Frameworks */,
 				99871C03214D7B3C00385C93 /* Headers */,
 				99871C04214D7B3C00385C93 /* Resources */,
+				99871CD7214FE68D00385C93 /* SwiftLint Run Script */,
 			);
 			buildRules = (
 			);
@@ -454,6 +506,7 @@
 				99871C1E214D7B4900385C93 /* Frameworks */,
 				99871C1F214D7B4900385C93 /* Headers */,
 				99871C20214D7B4900385C93 /* Resources */,
+				99871CD6214FE68700385C93 /* SwiftLint Run Script */,
 			);
 			buildRules = (
 			);
@@ -597,6 +650,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		99871CD5214FE68200385C93 /* SwiftLint Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "SwiftLint Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		99871CD6214FE68700385C93 /* SwiftLint Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "SwiftLint Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		99871CD7214FE68D00385C93 /* SwiftLint Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "SwiftLint Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		99871CD8214FE69200385C93 /* SwiftLint Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "SwiftLint Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		99871BD8214D7B1C00385C93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -604,9 +716,15 @@
 			files = (
 				99871C60214DC98100385C93 /* Authenticate.swift in Sources */,
 				99871C72214E244B00385C93 /* AuthenticateModel.swift in Sources */,
+				99871CD1214FCA8300385C93 /* SortType.swift in Sources */,
 				99871C92214E43AC00385C93 /* ElsevierKitAuthenticate.swift in Sources */,
+				99871CBB214FBC8000385C93 /* ErrorHandring.swift in Sources */,
+				99871CB0214E930000385C93 /* ScienceDirectSearchModel.swift in Sources */,
+				99871CAB214E921A00385C93 /* ScienceDirect.swift in Sources */,
 				99871C66214DCC4800385C93 /* PlatformType.swift in Sources */,
 				99871C6C214E21D900385C93 /* Operator+.swift in Sources */,
+				99871CA6214E91F700385C93 /* ElsevierKitScienceDirect.swift in Sources */,
+				99871CB5214F83DA00385C93 /* ElsevierHeader.swift in Sources */,
 				99871C5B214DB80700385C93 /* API.swift in Sources */,
 				99871C39214D7B6E00385C93 /* ElsevierKit.swift in Sources */,
 			);
@@ -618,7 +736,8 @@
 			files = (
 				99871C3D214D7B7700385C93 /* ElsevierKitTests.swift in Sources */,
 				99871CA4214E64F600385C93 /* Secrets.swift in Sources */,
-				99871C86214E2E8100385C93 /* AuthTest.swift in Sources */,
+				99871C86214E2E8100385C93 /* AuthTests.swift in Sources */,
+				99871CC4214FC2E400385C93 /* ScienceDirectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -628,9 +747,15 @@
 			files = (
 				99871C63214DC98100385C93 /* Authenticate.swift in Sources */,
 				99871C75214E244B00385C93 /* AuthenticateModel.swift in Sources */,
+				99871CD4214FCA8300385C93 /* SortType.swift in Sources */,
 				99871C95214E43AC00385C93 /* ElsevierKitAuthenticate.swift in Sources */,
+				99871CBE214FBC8000385C93 /* ErrorHandring.swift in Sources */,
+				99871CB3214E930000385C93 /* ScienceDirectSearchModel.swift in Sources */,
+				99871CAE214E921A00385C93 /* ScienceDirect.swift in Sources */,
 				99871C69214DCC4800385C93 /* PlatformType.swift in Sources */,
 				99871C6F214E21D900385C93 /* Operator+.swift in Sources */,
+				99871CA9214E91F700385C93 /* ElsevierKitScienceDirect.swift in Sources */,
+				99871CB8214F83DA00385C93 /* ElsevierHeader.swift in Sources */,
 				99871C5E214DB80700385C93 /* API.swift in Sources */,
 				99871C3A214D7B6E00385C93 /* ElsevierKit.swift in Sources */,
 			);
@@ -642,9 +767,15 @@
 			files = (
 				99871C62214DC98100385C93 /* Authenticate.swift in Sources */,
 				99871C74214E244B00385C93 /* AuthenticateModel.swift in Sources */,
+				99871CD3214FCA8300385C93 /* SortType.swift in Sources */,
 				99871C94214E43AC00385C93 /* ElsevierKitAuthenticate.swift in Sources */,
+				99871CBD214FBC8000385C93 /* ErrorHandring.swift in Sources */,
+				99871CB2214E930000385C93 /* ScienceDirectSearchModel.swift in Sources */,
+				99871CAD214E921A00385C93 /* ScienceDirect.swift in Sources */,
 				99871C68214DCC4800385C93 /* PlatformType.swift in Sources */,
 				99871C6E214E21D900385C93 /* Operator+.swift in Sources */,
+				99871CA8214E91F700385C93 /* ElsevierKitScienceDirect.swift in Sources */,
+				99871CB7214F83DA00385C93 /* ElsevierHeader.swift in Sources */,
 				99871C5D214DB80700385C93 /* API.swift in Sources */,
 				99871C3B214D7B7000385C93 /* ElsevierKit.swift in Sources */,
 			);
@@ -656,7 +787,8 @@
 			files = (
 				99871C40214D7B7A00385C93 /* ElsevierKitTests.swift in Sources */,
 				99871CA2214E64F600385C93 /* Secrets.swift in Sources */,
-				99871C88214E2E8300385C93 /* AuthTest.swift in Sources */,
+				99871C88214E2E8300385C93 /* AuthTests.swift in Sources */,
+				99871CC6214FC2E800385C93 /* ScienceDirectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -666,9 +798,15 @@
 			files = (
 				99871C61214DC98100385C93 /* Authenticate.swift in Sources */,
 				99871C73214E244B00385C93 /* AuthenticateModel.swift in Sources */,
+				99871CD2214FCA8300385C93 /* SortType.swift in Sources */,
 				99871C93214E43AC00385C93 /* ElsevierKitAuthenticate.swift in Sources */,
+				99871CBC214FBC8000385C93 /* ErrorHandring.swift in Sources */,
+				99871CB1214E930000385C93 /* ScienceDirectSearchModel.swift in Sources */,
+				99871CAC214E921A00385C93 /* ScienceDirect.swift in Sources */,
 				99871C67214DCC4800385C93 /* PlatformType.swift in Sources */,
 				99871C6D214E21D900385C93 /* Operator+.swift in Sources */,
+				99871CA7214E91F700385C93 /* ElsevierKitScienceDirect.swift in Sources */,
+				99871CB6214F83DA00385C93 /* ElsevierHeader.swift in Sources */,
 				99871C5C214DB80700385C93 /* API.swift in Sources */,
 				99871C3C214D7B7100385C93 /* ElsevierKit.swift in Sources */,
 			);
@@ -680,7 +818,8 @@
 			files = (
 				99871C3F214D7B7900385C93 /* ElsevierKitTests.swift in Sources */,
 				99871CA3214E64F600385C93 /* Secrets.swift in Sources */,
-				99871C87214E2E8200385C93 /* AuthTest.swift in Sources */,
+				99871C87214E2E8200385C93 /* AuthTests.swift in Sources */,
+				99871CC5214FC2E600385C93 /* ScienceDirectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

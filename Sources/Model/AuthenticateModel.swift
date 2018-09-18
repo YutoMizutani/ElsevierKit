@@ -7,6 +7,9 @@
 
 import Foundation
 
+/**
+ Authenticate Model
+ */
 public struct AuthenticateModel: Codable {
     public let authenticateResponse: Response
 
