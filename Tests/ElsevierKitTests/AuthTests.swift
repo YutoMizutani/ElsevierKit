@@ -15,6 +15,7 @@ extension ElsevierKitTests {
         self.decode(jsonURL, model: AuthenticateModel.self)
     }
 
+    #if RELEASE
     /// Authentication API test
     func testAuth() {
         let expect: XCTestExpectation = self.expectation(description: #function)
@@ -29,4 +30,5 @@ extension ElsevierKitTests {
         }
         self.wait(for: [expect], timeout: self.timeout)
     }
+    #endif
 }
