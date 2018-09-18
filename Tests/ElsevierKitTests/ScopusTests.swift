@@ -19,15 +19,14 @@ extension ElsevierKitTests {
 
     /// ScienceDirect Search API test
     func testScopus() {
-//        let expect: XCTestExpectation = self.expectation(description: #function)
-//        self.elsevier.scopus.search(query: "Operant", success: { model in
-//            expect.fulfill()
-//            XCTAssertNotNil(model)
-//        }) { error in
-//            expect.fulfill()
-//            XCTFail(error.localizedDescription)
-//        }
-//        self.wait(for: [expect], timeout: self.timeout)
-        XCTAssert(true)
+        let expect: XCTestExpectation = self.expectation(description: #function)
+        self.elsevier.scopus.search(query: "Operant", success: { model in
+            expect.fulfill()
+            XCTAssertNotNil(model)
+        }) { error in
+            expect.fulfill()
+            XCTFail(error.localizedDescription)
+        }
+        self.wait(for: [expect], timeout: self.timeout)
     }
 }

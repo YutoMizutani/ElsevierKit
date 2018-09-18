@@ -55,31 +55,36 @@ public struct ScopusSearchModel: Codable {
             public let title: String
             public let creator: String
             public let publicationName: String
-            public let issn: String
+            public let issn: String?
             public let eIssn: String?
+            public let sourceID: String?
+            public let isOpenAccess: Bool?
+            public let openaccess: String?
             public let volume: String
             public let issueIdentifier: String?
-            public let pageRange: String
+            public let pageRange: String?
             public let coverDate: String
             public let coverDisplayDate: String
-            public let doi: String
-            public let description: String
+            public let doi: String?
+            public let description: String?
             public let citedByCount: String
             public let affiliation: [Affiliation]
             public let aggregationType: String
             public let subtype: String
             public let subtypeDescription: String
-            public let author: [Author]
-            public let authkeywords: String
+            public let author: [Author]?
+            public let authkeywords: String?
+            public let eid: String?
+            public let pii: String?
 
             public struct Affiliation: Codable {
                 public let fa: String
-                public let url: String
-                public let afid: String
+                public let url: String?
+                public let afid: String?
                 public let affilname: String
                 public let city: String
                 public let country: String
-                public let variant: [Variant]
+                public let variant: [Variant]?
 
                 private enum CodingKeys: String, CodingKey {
                     case fa = "@_fa"
@@ -97,7 +102,7 @@ public struct ScopusSearchModel: Codable {
                 public let url: String
                 public let authid: String
                 public let authname: String
-                public let givenName: String?
+                public let givenName: String
                 public let surname: String
                 public let initials: String
                 public let afid: [Variant]
@@ -124,6 +129,9 @@ public struct ScopusSearchModel: Codable {
                 case publicationName = "prism:publicationName"
                 case issn = "prism:issn"
                 case eIssn = "prism:eIssn"
+                case sourceID = "source-id"
+                case isOpenAccess = "openaccessFlag"
+                case openaccess
                 case volume = "prism:volume"
                 case issueIdentifier = "prism:issueIdentifier"
                 case pageRange = "prism:pageRange"
@@ -138,6 +146,8 @@ public struct ScopusSearchModel: Codable {
                 case subtypeDescription
                 case author
                 case authkeywords
+                case eid
+                case pii
             }
         }
 
