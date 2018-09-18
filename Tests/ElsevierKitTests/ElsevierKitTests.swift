@@ -27,19 +27,4 @@ final class ElsevierKitTests: XCTestCase {
         self.elsevier.request(url, success: success, failure: failure)
         self.wait(for: [expect], timeout: self.timeout)
     }
-
-    #if RELEASE
-    static var allTests = [
-        ("testDecodeAuth", testDecodeAuth),
-        ("testAuth", testAuth),
-        ("testDecodeScienceDirect", testDecodeScienceDirect),
-        ("testScienceDirect", testScienceDirect),
-    ]
-    #else
-    static var allTests = [
-        ("testDecodeAuth", testDecodeAuth),
-        ("testDecodeScienceDirect", testDecodeScienceDirect),
-        ("testScienceDirect", testScienceDirect),
-    ]
-    #endif
 }

@@ -40,7 +40,7 @@ public extension ElsevierKitScienceDirect {
                 isHighlights highlights: Bool? = nil,
                 offset: Int? = nil,
                 show: Int? = nil,
-                sortBy: SortType? = nil,
+                sortBy: SDSortType? = nil,
                 isOpenAccess openAccess: Bool? = nil,
                 issue: String? = nil,
                 loadedAfter: String? = nil,

@@ -16,6 +16,9 @@ public class ElsevierKit {
     /// Elsevier ScienceDirect
     public let scienceDirect = ElsevierKitScienceDirect.shared
 
+    /// Elsevier Scopus
+    public let scopus = ElsevierKitScopus.shared
+
     // MARK: - Types
 
     /// Empty success handler

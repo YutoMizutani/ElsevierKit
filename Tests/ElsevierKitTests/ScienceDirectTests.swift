@@ -9,7 +9,7 @@ import XCTest
 @testable import ElsevierKit
 
 extension ElsevierKitTests {
-    /// scidirV2PUTSearchResp.json to AuthenticateModel
+    /// scidirV2PUTSearchResp.json to ScienceDirectSearchModel
     func testDecodeScienceDirect() {
         let jsonURL: String = "https://dev.elsevier.com/payloads/search/scidirV2PUTSearchResp.json"
         self.decode(jsonURL, model: ScienceDirectSearchModel.self)
