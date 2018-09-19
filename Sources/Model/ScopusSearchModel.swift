@@ -81,7 +81,7 @@ public struct ScopusSearchModel: Codable {
                 public let fa: String
                 public let url: String?
                 public let afid: String?
-                public let affilname: String
+                public let name: String
                 public let city: String
                 public let country: String
                 public let variant: [Variant]?
@@ -90,7 +90,7 @@ public struct ScopusSearchModel: Codable {
                     case fa = "@_fa"
                     case url = "affiliation-url"
                     case afid
-                    case affilname
+                    case name = "affilname"
                     case city = "affiliation-city"
                     case country = "affiliation-country"
                     case variant = "name-variant"
@@ -100,20 +100,20 @@ public struct ScopusSearchModel: Codable {
             public struct Author: Codable {
                 public let fa: String
                 public let url: String
-                public let authid: String
-                public let authname: String
-                public let givenName: String
-                public let surname: String
+                public let id: String
+                public let name: String
+                public let givenName: String?
+                public let surName: String
                 public let initials: String
                 public let afid: [Variant]
 
                 private enum CodingKeys: String, CodingKey {
                     case fa = "@_fa"
                     case url = "author-url"
-                    case authid
-                    case authname
+                    case id = "authid"
+                    case name = "authname"
                     case givenName = "given-name"
-                    case surname
+                    case surName = "surname"
                     case initials
                     case afid
                 }
