@@ -44,7 +44,7 @@ extension ElsevierKitTests {
     }
 
     #if RELEASE
-    /// Scopus Affiliation API test
+    /// Scopus Author API test
     func testScopusAuthor() {
 //        let expect: XCTestExpectation = self.expectation(description: #function)
 //        self.elsevier.scopus.author(query: "Mizutani", success: { model in
