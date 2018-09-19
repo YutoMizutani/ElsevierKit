@@ -49,11 +49,12 @@ public class ElsevierKit {
      Request
 
      - Parameters:
-     - url: API URL
-     - method: HTTP method
-     - parameters: Query parameters
-     - success: Success handler
-     - failure: Failure handler
+         - url: API URL
+         - method: HTTP method
+         - parameters: Query parameters
+         - encoding: Parameter encoding
+         - success: Success handler
+         - failure: Failure handler
      */
     func request<T: Decodable>(_ url: String,
                                method: HTTPMethod = .get,

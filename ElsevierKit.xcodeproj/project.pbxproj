@@ -46,6 +46,10 @@
 		9948E55E2151D58E009AC71C /* ScopusAffiliationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9948E55C2151D58E009AC71C /* ScopusAffiliationModel.swift */; };
 		9948E55F2151D58E009AC71C /* ScopusAffiliationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9948E55C2151D58E009AC71C /* ScopusAffiliationModel.swift */; };
 		9948E5602151D58E009AC71C /* ScopusAffiliationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9948E55C2151D58E009AC71C /* ScopusAffiliationModel.swift */; };
+		9948E56221520B6B009AC71C /* ScopusAuthorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9948E56121520B6B009AC71C /* ScopusAuthorModel.swift */; };
+		9948E56321520B6B009AC71C /* ScopusAuthorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9948E56121520B6B009AC71C /* ScopusAuthorModel.swift */; };
+		9948E56421520B6B009AC71C /* ScopusAuthorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9948E56121520B6B009AC71C /* ScopusAuthorModel.swift */; };
+		9948E56521520B6B009AC71C /* ScopusAuthorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9948E56121520B6B009AC71C /* ScopusAuthorModel.swift */; };
 		99871BE6214D7B1C00385C93 /* ElsevierKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99871BDD214D7B1C00385C93 /* ElsevierKit.framework */; };
 		99871C0F214D7B3C00385C93 /* ElsevierKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99871C06214D7B3C00385C93 /* ElsevierKit.framework */; };
 		99871C2B214D7B4900385C93 /* ElsevierKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99871C22214D7B4900385C93 /* ElsevierKit.framework */; };
@@ -154,6 +158,7 @@
 		992639F32150B2B100F22225 /* ScopusSearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopusSearchModel.swift; sourceTree = "<group>"; };
 		992639F82150B2DD00F22225 /* ScopusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopusTests.swift; sourceTree = "<group>"; };
 		9948E55C2151D58E009AC71C /* ScopusAffiliationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopusAffiliationModel.swift; sourceTree = "<group>"; };
+		9948E56121520B6B009AC71C /* ScopusAuthorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopusAuthorModel.swift; sourceTree = "<group>"; };
 		99871BCD214D7A5E00385C93 /* ElsevierKitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElsevierKitTests.swift; sourceTree = "<group>"; };
 		99871BD0214D7A5E00385C93 /* ElsevierKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElsevierKit.swift; sourceTree = "<group>"; };
 		99871BDD214D7B1C00385C93 /* ElsevierKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ElsevierKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -400,6 +405,7 @@
 				99871CAF214E930000385C93 /* ScienceDirectSearchModel.swift */,
 				992639F32150B2B100F22225 /* ScopusSearchModel.swift */,
 				9948E55C2151D58E009AC71C /* ScopusAffiliationModel.swift */,
+				9948E56121520B6B009AC71C /* ScopusAuthorModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -782,6 +788,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99871C60214DC98100385C93 /* Authenticate.swift in Sources */,
+				9948E56221520B6B009AC71C /* ScopusAuthorModel.swift in Sources */,
 				992639E52150A99F00F22225 /* SCSortType.swift in Sources */,
 				992639EA2150AB6A00F22225 /* ContentType.swift in Sources */,
 				99871C72214E244B00385C93 /* AuthenticateModel.swift in Sources */,
@@ -823,6 +830,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99871C63214DC98100385C93 /* Authenticate.swift in Sources */,
+				9948E56521520B6B009AC71C /* ScopusAuthorModel.swift in Sources */,
 				992639E82150A99F00F22225 /* SCSortType.swift in Sources */,
 				992639ED2150AB6A00F22225 /* ContentType.swift in Sources */,
 				99871C75214E244B00385C93 /* AuthenticateModel.swift in Sources */,
@@ -852,6 +860,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99871C62214DC98100385C93 /* Authenticate.swift in Sources */,
+				9948E56421520B6B009AC71C /* ScopusAuthorModel.swift in Sources */,
 				992639E72150A99F00F22225 /* SCSortType.swift in Sources */,
 				992639EC2150AB6A00F22225 /* ContentType.swift in Sources */,
 				99871C74214E244B00385C93 /* AuthenticateModel.swift in Sources */,
@@ -893,6 +902,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99871C61214DC98100385C93 /* Authenticate.swift in Sources */,
+				9948E56321520B6B009AC71C /* ScopusAuthorModel.swift in Sources */,
 				992639E62150A99F00F22225 /* SCSortType.swift in Sources */,
 				992639EB2150AB6A00F22225 /* ContentType.swift in Sources */,
 				99871C73214E244B00385C93 /* AuthenticateModel.swift in Sources */,
