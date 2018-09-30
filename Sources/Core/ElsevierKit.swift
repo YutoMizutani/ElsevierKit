@@ -19,6 +19,9 @@ public class ElsevierKit {
     /// Elsevier Scopus
     public let scopus = ElsevierKitScopus.shared
 
+    /// Engineering Village
+    public let engineeringVillage = ElsevierKitEngineeringVillage.shared
+
     // MARK: - Types
 
     /// Empty success handler

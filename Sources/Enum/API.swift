@@ -32,4 +32,10 @@ public struct API {
         /// Scopus Search API
         public static let search: String = "https://api.elsevier.com/content/search/scopus"
     }
+
+    /// Engineering Village APIs
+    public enum EngineeringVillage {
+        /// Engineering Village Search API
+        public static let search: String = "https://api.elsevier.com/content/ev/results"
+    }
 }
