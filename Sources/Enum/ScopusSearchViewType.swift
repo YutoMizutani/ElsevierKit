@@ -1,5 +1,5 @@
 //
-//  ViewType.swift
+//  ScopusSearchViewType.swift
 //  ElsevierKit
 //
 //  Created by Yuto Mizutani on 2018/09/18.
@@ -16,7 +16,7 @@ import Foundation
  - SeeAlso:
  https://dev.elsevier.com/documentation/ScopusSearchAPI.wadl
  */
-public enum ViewType: String {
+public enum ScopusSearchViewType: String {
     case standard = "STANDARD"
     case complete = "COMPLETE"
 }

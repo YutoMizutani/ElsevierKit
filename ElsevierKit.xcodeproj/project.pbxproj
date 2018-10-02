@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		991FFC882163314B00797C14 /* ScopusAbstractRetrievalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FFC872163314B00797C14 /* ScopusAbstractRetrievalModel.swift */; };
+		991FFC892163315000797C14 /* ScopusAbstractRetrievalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FFC872163314B00797C14 /* ScopusAbstractRetrievalModel.swift */; };
+		991FFC8A2163315000797C14 /* ScopusAbstractRetrievalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FFC872163314B00797C14 /* ScopusAbstractRetrievalModel.swift */; };
+		991FFC8B2163315100797C14 /* ScopusAbstractRetrievalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FFC872163314B00797C14 /* ScopusAbstractRetrievalModel.swift */; };
+		991FFC8D2163359A00797C14 /* ScopusAbstractRetrievalViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FFC8C2163359A00797C14 /* ScopusAbstractRetrievalViewType.swift */; };
+		991FFC8E21634C4800797C14 /* ScopusAbstractRetrievalViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FFC8C2163359A00797C14 /* ScopusAbstractRetrievalViewType.swift */; };
+		991FFC8F21634C4800797C14 /* ScopusAbstractRetrievalViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FFC8C2163359A00797C14 /* ScopusAbstractRetrievalViewType.swift */; };
+		991FFC9021634C4A00797C14 /* ScopusAbstractRetrievalViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FFC8C2163359A00797C14 /* ScopusAbstractRetrievalViewType.swift */; };
 		992639D12150A37E00F22225 /* ElsevierKitScopus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992639D02150A37E00F22225 /* ElsevierKitScopus.swift */; };
 		992639D22150A37E00F22225 /* ElsevierKitScopus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992639D02150A37E00F22225 /* ElsevierKitScopus.swift */; };
 		992639D32150A37E00F22225 /* ElsevierKitScopus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992639D02150A37E00F22225 /* ElsevierKitScopus.swift */; };
@@ -19,10 +27,10 @@
 		992639DC2150A61500F22225 /* ResourceVersionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992639DA2150A61500F22225 /* ResourceVersionType.swift */; };
 		992639DD2150A61500F22225 /* ResourceVersionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992639DA2150A61500F22225 /* ResourceVersionType.swift */; };
 		992639DE2150A61500F22225 /* ResourceVersionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992639DA2150A61500F22225 /* ResourceVersionType.swift */; };
-		992639E02150A71300F22225 /* ViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992639DF2150A71300F22225 /* ViewType.swift */; };
-		992639E12150A71300F22225 /* ViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992639DF2150A71300F22225 /* ViewType.swift */; };
-		992639E22150A71300F22225 /* ViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992639DF2150A71300F22225 /* ViewType.swift */; };
-		992639E32150A71300F22225 /* ViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992639DF2150A71300F22225 /* ViewType.swift */; };
+		992639E02150A71300F22225 /* ScopusSearchViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992639DF2150A71300F22225 /* ScopusSearchViewType.swift */; };
+		992639E12150A71300F22225 /* ScopusSearchViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992639DF2150A71300F22225 /* ScopusSearchViewType.swift */; };
+		992639E22150A71300F22225 /* ScopusSearchViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992639DF2150A71300F22225 /* ScopusSearchViewType.swift */; };
+		992639E32150A71300F22225 /* ScopusSearchViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992639DF2150A71300F22225 /* ScopusSearchViewType.swift */; };
 		992639E52150A99F00F22225 /* SCSortType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992639E42150A99F00F22225 /* SCSortType.swift */; };
 		992639E62150A99F00F22225 /* SCSortType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992639E42150A99F00F22225 /* SCSortType.swift */; };
 		992639E72150A99F00F22225 /* SCSortType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992639E42150A99F00F22225 /* SCSortType.swift */; };
@@ -175,10 +183,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		991FFC872163314B00797C14 /* ScopusAbstractRetrievalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopusAbstractRetrievalModel.swift; sourceTree = "<group>"; };
+		991FFC8C2163359A00797C14 /* ScopusAbstractRetrievalViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopusAbstractRetrievalViewType.swift; sourceTree = "<group>"; };
 		992639D02150A37E00F22225 /* ElsevierKitScopus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElsevierKitScopus.swift; sourceTree = "<group>"; };
 		992639D52150A3D800F22225 /* Scopus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scopus.swift; sourceTree = "<group>"; };
 		992639DA2150A61500F22225 /* ResourceVersionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceVersionType.swift; sourceTree = "<group>"; };
-		992639DF2150A71300F22225 /* ViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewType.swift; sourceTree = "<group>"; };
+		992639DF2150A71300F22225 /* ScopusSearchViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopusSearchViewType.swift; sourceTree = "<group>"; };
 		992639E42150A99F00F22225 /* SCSortType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCSortType.swift; sourceTree = "<group>"; };
 		992639E92150AB6A00F22225 /* ContentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentType.swift; sourceTree = "<group>"; };
 		992639EE2150AC2F00F22225 /* SubjectType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectType.swift; sourceTree = "<group>"; };
@@ -407,13 +417,14 @@
 				99871C65214DCC4800385C93 /* PlatformType.swift */,
 				99871CD0214FCA8300385C93 /* SDSortType.swift */,
 				992639DA2150A61500F22225 /* ResourceVersionType.swift */,
-				992639DF2150A71300F22225 /* ViewType.swift */,
+				992639DF2150A71300F22225 /* ScopusSearchViewType.swift */,
 				992639E42150A99F00F22225 /* SCSortType.swift */,
 				992639E92150AB6A00F22225 /* ContentType.swift */,
 				992639EE2150AC2F00F22225 /* SubjectType.swift */,
 				9948E570215268A6009AC71C /* EVDatabaseType.swift */,
 				99FB3F982159DC2E00ABEA31 /* EVSortFieldType.swift */,
 				99FB3F9D2159DC3F00ABEA31 /* EVSortDirectionType.swift */,
+				991FFC8C2163359A00797C14 /* ScopusAbstractRetrievalViewType.swift */,
 			);
 			path = Enum;
 			sourceTree = "<group>";
@@ -447,6 +458,7 @@
 				9948E55C2151D58E009AC71C /* ScopusAffiliationModel.swift */,
 				9948E56121520B6B009AC71C /* ScopusAuthorModel.swift */,
 				99FB3FA22159DE7700ABEA31 /* EngineeringVillageSearchModel.swift */,
+				991FFC872163314B00797C14 /* ScopusAbstractRetrievalModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -855,8 +867,10 @@
 				9948E55D2151D58E009AC71C /* ScopusAffiliationModel.swift in Sources */,
 				99871C5B214DB80700385C93 /* API.swift in Sources */,
 				99871C39214D7B6E00385C93 /* ElsevierKit.swift in Sources */,
-				992639E02150A71300F22225 /* ViewType.swift in Sources */,
+				992639E02150A71300F22225 /* ScopusSearchViewType.swift in Sources */,
 				992639F42150B2B100F22225 /* ScopusSearchModel.swift in Sources */,
+				991FFC8D2163359A00797C14 /* ScopusAbstractRetrievalViewType.swift in Sources */,
+				991FFC882163314B00797C14 /* ScopusAbstractRetrievalModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -904,8 +918,10 @@
 				9948E5602151D58E009AC71C /* ScopusAffiliationModel.swift in Sources */,
 				99871C5E214DB80700385C93 /* API.swift in Sources */,
 				99871C3A214D7B6E00385C93 /* ElsevierKit.swift in Sources */,
-				992639E32150A71300F22225 /* ViewType.swift in Sources */,
+				992639E32150A71300F22225 /* ScopusSearchViewType.swift in Sources */,
 				992639F72150B2B100F22225 /* ScopusSearchModel.swift in Sources */,
+				991FFC9021634C4A00797C14 /* ScopusAbstractRetrievalViewType.swift in Sources */,
+				991FFC8B2163315100797C14 /* ScopusAbstractRetrievalModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -940,8 +956,10 @@
 				9948E55F2151D58E009AC71C /* ScopusAffiliationModel.swift in Sources */,
 				99871C5D214DB80700385C93 /* API.swift in Sources */,
 				99871C3B214D7B7000385C93 /* ElsevierKit.swift in Sources */,
-				992639E22150A71300F22225 /* ViewType.swift in Sources */,
+				992639E22150A71300F22225 /* ScopusSearchViewType.swift in Sources */,
 				992639F62150B2B100F22225 /* ScopusSearchModel.swift in Sources */,
+				991FFC8F21634C4800797C14 /* ScopusAbstractRetrievalViewType.swift in Sources */,
+				991FFC8A2163315000797C14 /* ScopusAbstractRetrievalModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -989,8 +1007,10 @@
 				9948E55E2151D58E009AC71C /* ScopusAffiliationModel.swift in Sources */,
 				99871C5C214DB80700385C93 /* API.swift in Sources */,
 				99871C3C214D7B7100385C93 /* ElsevierKit.swift in Sources */,
-				992639E12150A71300F22225 /* ViewType.swift in Sources */,
+				992639E12150A71300F22225 /* ScopusSearchViewType.swift in Sources */,
 				992639F52150B2B100F22225 /* ScopusSearchModel.swift in Sources */,
+				991FFC8E21634C4800797C14 /* ScopusAbstractRetrievalViewType.swift in Sources */,
+				991FFC892163315000797C14 /* ScopusAbstractRetrievalModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

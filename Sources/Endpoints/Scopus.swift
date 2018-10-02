@@ -9,6 +9,8 @@ import Alamofire
 
 public extension ElsevierKitScopus {
 
+    // MARK: - Affiliation Search API
+
     /**
 
      Affiliation Search API: This represents a search against the Affiliation cluster, which contains SCOPUS Affiliation Profiles.
@@ -29,7 +31,7 @@ public extension ElsevierKitScopus {
      https://dev.elsevier.com/documentation/AffiliationSearchAPI.wadl
      */
     func affiliation(query: String,
-                     viewType view: ViewType? = nil,
+                     viewType view: ScopusSearchViewType? = nil,
                      field: String? = nil,
                      isSuppressNavLinks suppressNavLinks: Bool? = nil,
                      start: Int? = nil,
@@ -64,6 +66,8 @@ public extension ElsevierKitScopus {
                                    })
     }
 
+    // MARK: - Author Search API
+
     /**
 
      Author Search API: This represents a search against the Author cluster, which contains SCOPUS Author Profiles.
@@ -87,7 +91,7 @@ public extension ElsevierKitScopus {
      */
     func author(query: String? = nil,
                 coAuthor: Int? = nil,
-                viewType view: ViewType? = nil,
+                viewType view: ScopusSearchViewType? = nil,
                 field: String? = nil,
                 isSuppressNavLinks suppressNavLinks: Bool? = nil,
                 start: Int? = nil,
@@ -130,6 +134,8 @@ public extension ElsevierKitScopus {
                                    })
     }
 
+    // MARK: - SCOPUS Search API
+
     /**
 
      SCOPUS Search API: This represents a search against the SCOPUS cluster, which contains SCOPUS abstracts. Scopus is the largest abstract and citation database of research literature and quality web sources. Updated daily, Scopus covers 50 million abstracts of over 20,500 peer-reviewed titles from more than 5,000 publishers. This search resource allows for the submission of Boolean queries into the Scopus index, retrieving relevant result metadata in a user-specific text formats.
@@ -155,7 +161,7 @@ public extension ElsevierKitScopus {
      https://dev.elsevier.com/documentation/ScopusSearchAPI.wadl
      */
     func search(query: String,
-                viewType view: ViewType? = nil,
+                viewType view: ScopusSearchViewType? = nil,
                 field: String? = nil,
                 isSuppressNavLinks suppressNavLinks: Bool? = nil,
                 date: String? = nil,
@@ -188,6 +194,260 @@ public extension ElsevierKitScopus {
         parameters["facets"] ?= facets
 
         ElsevierKit.shared.request(API.Scopus.search,
+                                   method: .get,
+                                   parameters: parameters,
+                                   success: { model in
+                                       success?(model)
+                                   },
+                                   failure: { error in
+                                       failure?(error)
+                                   })
+    }
+
+    // MARK: - Abstract Retrieval API
+
+    /**
+
+     Abstract Retrieval API: This represents retrieval of a SCOPUS abstract by Scopus ID. Each abstract is assigned a unique Scopus identifier (which is also used to create the electronic identifier).
+
+     - Parameters:
+         - scopusID: SCOPUS ID
+         - field: This alias represents the name of specific fields that should be returned. The list of fields include all of the fields returned in the response payload (see view). Multiple fields can be specified, delimited by commas. Note that specifying this parameter overrides the view parameter.
+         - viewType: This alias represents the list of elements that will be returned in the response. The following chart shows the [Abstract Retrieval Views](https://dev.elsevier.com/guides/AbstractRetrievalViews.htm).
+         - startref: Applicable only to REF view. Numeric value representing the results offset (i.e. starting position for the resolved references).
+         - refcount: Applicable only to REF view. Numeric value representing the maximum number of resolved references to be returned. If not provided this will be set to a system default based on service level.
+         - success: Success handler
+         - failure: Failure handler
+
+     - SeeAlso:
+     https://dev.elsevier.com/documentation/AbstractRetrievalAPI.wadl
+     */
+    func abstruct(scopusID id: String,
+                  field: String? = nil,
+                  viewType view: ScopusAbstractRetrievalViewType? = nil,
+                  startref: Int? = nil,
+                  refcount: Int? = nil,
+                  success: ElsevierKit.SuccessHandler<ScopusAbstractRetrievalModel>? = nil,
+                  failure: ElsevierKit.FailureHandler? = nil) {
+
+        var parameters: Parameters = Parameters()
+        parameters["field"] ?= field
+        parameters["view"] ?= view?.rawValue
+        parameters["startref"] ?= startref?.description
+        parameters["refcount"] ?= refcount?.description
+
+        let url = API.Scopus.abstruct + "/scopus_id/\(id)"
+        ElsevierKit.shared.request(url,
+                                   method: .get,
+                                   parameters: parameters,
+                                   success: { model in
+                                       success?(model)
+                                   },
+                                   failure: { error in
+                                       failure?(error)
+                                   })
+    }
+
+    /**
+
+     Abstract Retrieval API: This represents retrieval of a SCOPUS abstract by EID (Electronic Identifier). Each abstract is assigned a unique Scopus identifier which is also used to create the electronic identifier.
+
+     - Parameters:
+         - eid: EID (Electronic Identifier)
+         - field: This alias represents the name of specific fields that should be returned. The list of fields include all of the fields returned in the response payload (see view). Multiple fields can be specified, delimited by commas. Note that specifying this parameter overrides the view parameter.
+         - viewType: This alias represents the list of elements that will be returned in the response. The following chart shows the [Abstract Retrieval Views](https://dev.elsevier.com/guides/AbstractRetrievalViews.htm).
+         - startref: Applicable only to REF view. Numeric value representing the results offset (i.e. starting position for the resolved references).
+         - refcount: Applicable only to REF view. Numeric value representing the maximum number of resolved references to be returned. If not provided this will be set to a system default based on service level.
+         - success: Success handler
+         - failure: Failure handler
+
+     - SeeAlso:
+     https://dev.elsevier.com/documentation/AbstractRetrievalAPI.wadl
+     */
+    func abstruct(eid: String,
+                  field: String? = nil,
+                  viewType view: ScopusAbstractRetrievalViewType? = nil,
+                  startref: Int? = nil,
+                  refcount: Int? = nil,
+                  success: ElsevierKit.SuccessHandler<ScopusAbstractRetrievalModel>? = nil,
+                  failure: ElsevierKit.FailureHandler? = nil) {
+
+        var parameters: Parameters = Parameters()
+        parameters["field"] ?= field
+        parameters["view"] ?= view?.rawValue
+        parameters["startref"] ?= startref?.description
+        parameters["refcount"] ?= refcount?.description
+
+        let url = API.Scopus.abstruct + "/eid/\(eid)"
+        ElsevierKit.shared.request(url,
+                                   method: .get,
+                                   parameters: parameters,
+                                   success: { model in
+                                       success?(model)
+                                   },
+                                   failure: { error in
+                                       failure?(error)
+                                   })
+    }
+
+    /**
+
+     Abstract Retrieval API: This represents retrieval of a SCOPUS abstract by DOI (Document Object Identifier). Note that not every abstract contains a DOI. If only a DOI is available and it cannot be found using this resource, it may still be found by running a Boolean search against the SCIDIR Search API index and using the abstract link (if returned) in those search results.
+
+     - Parameters:
+         - doi: DOI (Document Object Identifier)
+         - field: This alias represents the name of specific fields that should be returned. The list of fields include all of the fields returned in the response payload (see view). Multiple fields can be specified, delimited by commas. Note that specifying this parameter overrides the view parameter.
+         - viewType: This alias represents the list of elements that will be returned in the response. The following chart shows the [Abstract Retrieval Views](https://dev.elsevier.com/guides/AbstractRetrievalViews.htm).
+         - startref: Applicable only to REF view. Numeric value representing the results offset (i.e. starting position for the resolved references).
+         - refcount: Applicable only to REF view. Numeric value representing the maximum number of resolved references to be returned. If not provided this will be set to a system default based on service level.
+         - success: Success handler
+         - failure: Failure handler
+
+     - SeeAlso:
+     https://dev.elsevier.com/documentation/AbstractRetrievalAPI.wadl
+     */
+    func abstruct(doi: String,
+                  field: String? = nil,
+                  viewType view: ScopusAbstractRetrievalViewType? = nil,
+                  startref: Int? = nil,
+                  refcount: Int? = nil,
+                  success: ElsevierKit.SuccessHandler<ScopusAbstractRetrievalModel>? = nil,
+                  failure: ElsevierKit.FailureHandler? = nil) {
+
+        var parameters: Parameters = Parameters()
+        parameters["field"] ?= field
+        parameters["view"] ?= view?.rawValue
+        parameters["startref"] ?= startref?.description
+        parameters["refcount"] ?= refcount?.description
+
+        let url = API.Scopus.abstruct + "/doi/\(doi)"
+        ElsevierKit.shared.request(url,
+                                   method: .get,
+                                   parameters: parameters,
+                                   success: { model in
+                                       success?(model)
+                                   },
+                                   failure: { error in
+                                       failure?(error)
+                                   })
+    }
+
+    /**
+
+     Abstract Retrieval API: This represents retrieval of a SCOPUS abstract by PII (Publication Item Identifier). Note that not every abstract contains a PII. If only a PII is available and it cannot be found using this resource, it may still be found by running a Boolean search against the SCIDIR Search API index and using the abstract link (if returned) in those search results.
+
+     - Parameters:
+         - pii: PII (Publication Item Identifier)
+         - field: This alias represents the name of specific fields that should be returned. The list of fields include all of the fields returned in the response payload (see view). Multiple fields can be specified, delimited by commas. Note that specifying this parameter overrides the view parameter.
+         - viewType: This alias represents the list of elements that will be returned in the response. The following chart shows the [Abstract Retrieval Views](https://dev.elsevier.com/guides/AbstractRetrievalViews.htm).
+         - startref: Applicable only to REF view. Numeric value representing the results offset (i.e. starting position for the resolved references).
+         - refcount: Applicable only to REF view. Numeric value representing the maximum number of resolved references to be returned. If not provided this will be set to a system default based on service level.
+         - success: Success handler
+         - failure: Failure handler
+
+     - SeeAlso:
+     https://dev.elsevier.com/documentation/AbstractRetrievalAPI.wadl
+     */
+    func abstruct(pii: String,
+                  field: String? = nil,
+                  viewType view: ScopusAbstractRetrievalViewType? = nil,
+                  startref: Int? = nil,
+                  refcount: Int? = nil,
+                  success: ElsevierKit.SuccessHandler<ScopusAbstractRetrievalModel>? = nil,
+                  failure: ElsevierKit.FailureHandler? = nil) {
+
+        var parameters: Parameters = Parameters()
+        parameters["field"] ?= field
+        parameters["view"] ?= view?.rawValue
+        parameters["startref"] ?= startref?.description
+        parameters["refcount"] ?= refcount?.description
+
+        let url = API.Scopus.abstruct + "/pii/\(pii)"
+        ElsevierKit.shared.request(url,
+                                   method: .get,
+                                   parameters: parameters,
+                                   success: { model in
+                                       success?(model)
+                                   },
+                                   failure: { error in
+                                       failure?(error)
+                                   })
+    }
+
+    /**
+
+     Abstract Retrieval API: This represents retrieval of a SCOPUS abstract by MEDLINE ID.
+
+     - Parameters:
+         - pubmedID: MEDLINE ID
+         - field: This alias represents the name of specific fields that should be returned. The list of fields include all of the fields returned in the response payload (see view). Multiple fields can be specified, delimited by commas. Note that specifying this parameter overrides the view parameter.
+         - viewType: This alias represents the list of elements that will be returned in the response. The following chart shows the [Abstract Retrieval Views](https://dev.elsevier.com/guides/AbstractRetrievalViews.htm).
+         - startref: Applicable only to REF view. Numeric value representing the results offset (i.e. starting position for the resolved references).
+         - refcount: Applicable only to REF view. Numeric value representing the maximum number of resolved references to be returned. If not provided this will be set to a system default based on service level.
+         - success: Success handler
+         - failure: Failure handler
+
+     - SeeAlso:
+     https://dev.elsevier.com/documentation/AbstractRetrievalAPI.wadl
+     */
+    func abstruct(pubmedID id: String,
+                  field: String? = nil,
+                  viewType view: ScopusAbstractRetrievalViewType? = nil,
+                  startref: Int? = nil,
+                  refcount: Int? = nil,
+                  success: ElsevierKit.SuccessHandler<ScopusAbstractRetrievalModel>? = nil,
+                  failure: ElsevierKit.FailureHandler? = nil) {
+
+        var parameters: Parameters = Parameters()
+        parameters["field"] ?= field
+        parameters["view"] ?= view?.rawValue
+        parameters["startref"] ?= startref?.description
+        parameters["refcount"] ?= refcount?.description
+
+        let url = API.Scopus.abstruct + "/pubmed_id/\(id)"
+        ElsevierKit.shared.request(url,
+                                   method: .get,
+                                   parameters: parameters,
+                                   success: { model in
+                                       success?(model)
+                                   },
+                                   failure: { error in
+                                       failure?(error)
+                                   })
+    }
+
+    /**
+
+     Abstract Retrieval API: This represents retrieval of a SCOPUS abstract by PUI.
+
+     - Parameters:
+         - pui: PUI
+         - field: This alias represents the name of specific fields that should be returned. The list of fields include all of the fields returned in the response payload (see view). Multiple fields can be specified, delimited by commas. Note that specifying this parameter overrides the view parameter.
+         - viewType: This alias represents the list of elements that will be returned in the response. The following chart shows the [Abstract Retrieval Views](https://dev.elsevier.com/guides/AbstractRetrievalViews.htm).
+         - startref: Applicable only to REF view. Numeric value representing the results offset (i.e. starting position for the resolved references).
+         - refcount: Applicable only to REF view. Numeric value representing the maximum number of resolved references to be returned. If not provided this will be set to a system default based on service level.
+         - success: Success handler
+         - failure: Failure handler
+
+     - SeeAlso:
+     https://dev.elsevier.com/documentation/AbstractRetrievalAPI.wadl
+     */
+    func abstruct(pui: String,
+                  field: String? = nil,
+                  viewType view: ScopusAbstractRetrievalViewType? = nil,
+                  startref: Int? = nil,
+                  refcount: Int? = nil,
+                  success: ElsevierKit.SuccessHandler<ScopusAbstractRetrievalModel>? = nil,
+                  failure: ElsevierKit.FailureHandler? = nil) {
+
+        var parameters: Parameters = Parameters()
+        parameters["field"] ?= field
+        parameters["view"] ?= view?.rawValue
+        parameters["startref"] ?= startref?.description
+        parameters["refcount"] ?= refcount?.description
+
+        let url = API.Scopus.abstruct + "/pui/\(pui)"
+        ElsevierKit.shared.request(url,
                                    method: .get,
                                    parameters: parameters,
                                    success: { model in

@@ -31,6 +31,8 @@ public struct API {
         public static let author: String = "https://api.elsevier.com/content/search/author"
         /// Scopus Search API
         public static let search: String = "https://api.elsevier.com/content/search/scopus"
+        /// Abstract Retrieval API
+        public static let abstruct: String = "https://api.elsevier.com/content/abstract"
     }
 
     /// Engineering Village APIs
