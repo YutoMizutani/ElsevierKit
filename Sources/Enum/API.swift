@@ -21,6 +21,8 @@ public struct API {
     public enum ScienceDirect {
         /// ScienceDirect Search API V2
         public static let search: String = "https://api.elsevier.com/content/search/sciencedirect"
+        /// ScienceDirect Article (Full Text) Retrieval API
+        public static let article: String = "https://api.elsevier.com/content/article"
     }
 
     /// ScienceDirect APIs
