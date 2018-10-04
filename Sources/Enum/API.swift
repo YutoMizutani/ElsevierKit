@@ -23,6 +23,8 @@ public struct API {
         public static let search: String = "https://api.elsevier.com/content/search/sciencedirect"
         /// ScienceDirect Article (Full Text) Retrieval API
         public static let article: String = "https://api.elsevier.com/content/article"
+        /// Content Full Text Entitlement API
+        public static let articleEntitlement: String = "https://api.elsevier.com/content/article/entitlement"
     }
 
     /// ScienceDirect APIs

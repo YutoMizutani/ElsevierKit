@@ -160,6 +160,10 @@
 		99C0F2842164E9690018C845 /* SDArticleViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C0F2802164E9690018C845 /* SDArticleViewType.swift */; };
 		99C0F2852164EE310018C845 /* ElsevierKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99871BCD214D7A5E00385C93 /* ElsevierKitTests.swift */; };
 		99C0F2872164EE3F0018C845 /* EngineeringVillage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996FDDB12160DA12004E1181 /* EngineeringVillage.swift */; };
+		99C0F2BF21665B3E0018C845 /* SDArticleEntitlementViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C0F2BE21665B3E0018C845 /* SDArticleEntitlementViewType.swift */; };
+		99C0F2C021665B3E0018C845 /* SDArticleEntitlementViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C0F2BE21665B3E0018C845 /* SDArticleEntitlementViewType.swift */; };
+		99C0F2C121665B3E0018C845 /* SDArticleEntitlementViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C0F2BE21665B3E0018C845 /* SDArticleEntitlementViewType.swift */; };
+		99C0F2C221665B3E0018C845 /* SDArticleEntitlementViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C0F2BE21665B3E0018C845 /* SDArticleEntitlementViewType.swift */; };
 		99FB3F992159DC2E00ABEA31 /* EVSortFieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FB3F982159DC2E00ABEA31 /* EVSortFieldType.swift */; };
 		99FB3F9A2159DC2E00ABEA31 /* EVSortFieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FB3F982159DC2E00ABEA31 /* EVSortFieldType.swift */; };
 		99FB3F9B2159DC2E00ABEA31 /* EVSortFieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FB3F982159DC2E00ABEA31 /* EVSortFieldType.swift */; };
@@ -250,6 +254,7 @@
 		99871CBF214FC2B000385C93 /* ScienceDirectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceDirectTests.swift; sourceTree = "<group>"; };
 		99871CD0214FCA8300385C93 /* SDSortType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDSortType.swift; sourceTree = "<group>"; };
 		99C0F2802164E9690018C845 /* SDArticleViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDArticleViewType.swift; sourceTree = "<group>"; };
+		99C0F2BE21665B3E0018C845 /* SDArticleEntitlementViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDArticleEntitlementViewType.swift; sourceTree = "<group>"; };
 		99FB3F982159DC2E00ABEA31 /* EVSortFieldType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EVSortFieldType.swift; sourceTree = "<group>"; };
 		99FB3F9D2159DC3F00ABEA31 /* EVSortDirectionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EVSortDirectionType.swift; sourceTree = "<group>"; };
 		99FB3FA22159DE7700ABEA31 /* EngineeringVillageSearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineeringVillageSearchModel.swift; sourceTree = "<group>"; };
@@ -489,6 +494,7 @@
 			children = (
 				99871CD0214FCA8300385C93 /* SDSortType.swift */,
 				99C0F2802164E9690018C845 /* SDArticleViewType.swift */,
+				99C0F2BE21665B3E0018C845 /* SDArticleEntitlementViewType.swift */,
 			);
 			name = ScienceDirect;
 			sourceTree = "<group>";
@@ -922,6 +928,7 @@
 				9948E5672152678A009AC71C /* ElsevierKitEngineeringVillage.swift in Sources */,
 				99871C72214E244B00385C93 /* AuthenticateModel.swift in Sources */,
 				9948E56C215267D6009AC71C /* EngineeringVillage.swift in Sources */,
+				99C0F2BF21665B3E0018C845 /* SDArticleEntitlementViewType.swift in Sources */,
 				992639D12150A37E00F22225 /* ElsevierKitScopus.swift in Sources */,
 				99871CD1214FCA8300385C93 /* SDSortType.swift in Sources */,
 				992639EF2150AC2F00F22225 /* SubjectType.swift in Sources */,
@@ -977,6 +984,7 @@
 				99871C75214E244B00385C93 /* AuthenticateModel.swift in Sources */,
 				9948E56F215267D6009AC71C /* EngineeringVillage.swift in Sources */,
 				992639D42150A37E00F22225 /* ElsevierKitScopus.swift in Sources */,
+				99C0F2C221665B3E0018C845 /* SDArticleEntitlementViewType.swift in Sources */,
 				99871CD4214FCA8300385C93 /* SDSortType.swift in Sources */,
 				992639F22150AC2F00F22225 /* SubjectType.swift in Sources */,
 				992639DE2150A61500F22225 /* ResourceVersionType.swift in Sources */,
@@ -1019,6 +1027,7 @@
 				99871C74214E244B00385C93 /* AuthenticateModel.swift in Sources */,
 				9948E56E215267D6009AC71C /* EngineeringVillage.swift in Sources */,
 				992639D32150A37E00F22225 /* ElsevierKitScopus.swift in Sources */,
+				99C0F2C121665B3E0018C845 /* SDArticleEntitlementViewType.swift in Sources */,
 				99871CD3214FCA8300385C93 /* SDSortType.swift in Sources */,
 				992639F12150AC2F00F22225 /* SubjectType.swift in Sources */,
 				992639DD2150A61500F22225 /* ResourceVersionType.swift in Sources */,
@@ -1074,6 +1083,7 @@
 				99871C73214E244B00385C93 /* AuthenticateModel.swift in Sources */,
 				9948E56D215267D6009AC71C /* EngineeringVillage.swift in Sources */,
 				992639D22150A37E00F22225 /* ElsevierKitScopus.swift in Sources */,
+				99C0F2C021665B3E0018C845 /* SDArticleEntitlementViewType.swift in Sources */,
 				99871CD2214FCA8300385C93 /* SDSortType.swift in Sources */,
 				992639F02150AC2F00F22225 /* SubjectType.swift in Sources */,
 				992639DC2150A61500F22225 /* ResourceVersionType.swift in Sources */,
