@@ -31,7 +31,7 @@ public extension ElsevierKitScopus {
      https://dev.elsevier.com/documentation/AffiliationSearchAPI.wadl
      */
     func affiliation(query: String,
-                     viewType view: ScopusSearchViewType? = nil,
+                     viewType view: SCSearchViewType? = nil,
                      field: String? = nil,
                      isSuppressNavLinks suppressNavLinks: Bool? = nil,
                      start: Int? = nil,
@@ -91,7 +91,7 @@ public extension ElsevierKitScopus {
      */
     func author(query: String? = nil,
                 coAuthor: Int? = nil,
-                viewType view: ScopusSearchViewType? = nil,
+                viewType view: SCSearchViewType? = nil,
                 field: String? = nil,
                 isSuppressNavLinks suppressNavLinks: Bool? = nil,
                 start: Int? = nil,
@@ -161,7 +161,7 @@ public extension ElsevierKitScopus {
      https://dev.elsevier.com/documentation/ScopusSearchAPI.wadl
      */
     func search(query: String,
-                viewType view: ScopusSearchViewType? = nil,
+                viewType view: SCSearchViewType? = nil,
                 field: String? = nil,
                 isSuppressNavLinks suppressNavLinks: Bool? = nil,
                 date: String? = nil,
@@ -224,7 +224,7 @@ public extension ElsevierKitScopus {
      */
     func abstruct(scopusID id: String,
                   field: String? = nil,
-                  viewType view: ScopusAbstractRetrievalViewType? = nil,
+                  viewType view: SCAbstractRetrievalViewType? = nil,
                   startref: Int? = nil,
                   refcount: Int? = nil,
                   success: ElsevierKit.SuccessHandler<ScopusAbstractRetrievalModel>? = nil,
@@ -266,7 +266,7 @@ public extension ElsevierKitScopus {
      */
     func abstruct(eid: String,
                   field: String? = nil,
-                  viewType view: ScopusAbstractRetrievalViewType? = nil,
+                  viewType view: SCAbstractRetrievalViewType? = nil,
                   startref: Int? = nil,
                   refcount: Int? = nil,
                   success: ElsevierKit.SuccessHandler<ScopusAbstractRetrievalModel>? = nil,
@@ -308,7 +308,7 @@ public extension ElsevierKitScopus {
      */
     func abstruct(doi: String,
                   field: String? = nil,
-                  viewType view: ScopusAbstractRetrievalViewType? = nil,
+                  viewType view: SCAbstractRetrievalViewType? = nil,
                   startref: Int? = nil,
                   refcount: Int? = nil,
                   success: ElsevierKit.SuccessHandler<ScopusAbstractRetrievalModel>? = nil,
@@ -350,7 +350,7 @@ public extension ElsevierKitScopus {
      */
     func abstruct(pii: String,
                   field: String? = nil,
-                  viewType view: ScopusAbstractRetrievalViewType? = nil,
+                  viewType view: SCAbstractRetrievalViewType? = nil,
                   startref: Int? = nil,
                   refcount: Int? = nil,
                   success: ElsevierKit.SuccessHandler<ScopusAbstractRetrievalModel>? = nil,
@@ -392,7 +392,7 @@ public extension ElsevierKitScopus {
      */
     func abstruct(pubmedID id: String,
                   field: String? = nil,
-                  viewType view: ScopusAbstractRetrievalViewType? = nil,
+                  viewType view: SCAbstractRetrievalViewType? = nil,
                   startref: Int? = nil,
                   refcount: Int? = nil,
                   success: ElsevierKit.SuccessHandler<ScopusAbstractRetrievalModel>? = nil,
@@ -434,7 +434,7 @@ public extension ElsevierKitScopus {
      */
     func abstruct(pui: String,
                   field: String? = nil,
-                  viewType view: ScopusAbstractRetrievalViewType? = nil,
+                  viewType view: SCAbstractRetrievalViewType? = nil,
                   startref: Int? = nil,
                   refcount: Int? = nil,
                   success: ElsevierKit.SuccessHandler<ScopusAbstractRetrievalModel>? = nil,

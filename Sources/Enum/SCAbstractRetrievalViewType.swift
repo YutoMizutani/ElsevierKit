@@ -1,5 +1,5 @@
 //
-//  ScopusAbstractRetrievalViewType.swift
+//  SCAbstractRetrievalViewType.swift
 //  ElsevierKit iOS
 //
 //  Created by Yuto Mizutani on 2018/10/02.
@@ -16,7 +16,7 @@ import Foundation
  - SeeAlso:
  https://dev.elsevier.com/documentation/ScopusSearchAPI.wadl
  */
-public enum ScopusAbstractRetrievalViewType: String {
+public enum SCAbstractRetrievalViewType: String {
     case meta = "META"
     case metaAbs = "META_ABS"
     case full = "FULL"

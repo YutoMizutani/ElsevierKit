@@ -11,10 +11,10 @@
 		991FFC892163315000797C14 /* ScopusAbstractRetrievalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FFC872163314B00797C14 /* ScopusAbstractRetrievalModel.swift */; };
 		991FFC8A2163315000797C14 /* ScopusAbstractRetrievalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FFC872163314B00797C14 /* ScopusAbstractRetrievalModel.swift */; };
 		991FFC8B2163315100797C14 /* ScopusAbstractRetrievalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FFC872163314B00797C14 /* ScopusAbstractRetrievalModel.swift */; };
-		991FFC8D2163359A00797C14 /* ScopusAbstractRetrievalViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FFC8C2163359A00797C14 /* ScopusAbstractRetrievalViewType.swift */; };
-		991FFC8E21634C4800797C14 /* ScopusAbstractRetrievalViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FFC8C2163359A00797C14 /* ScopusAbstractRetrievalViewType.swift */; };
-		991FFC8F21634C4800797C14 /* ScopusAbstractRetrievalViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FFC8C2163359A00797C14 /* ScopusAbstractRetrievalViewType.swift */; };
-		991FFC9021634C4A00797C14 /* ScopusAbstractRetrievalViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FFC8C2163359A00797C14 /* ScopusAbstractRetrievalViewType.swift */; };
+		991FFC8D2163359A00797C14 /* SCAbstractRetrievalViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FFC8C2163359A00797C14 /* SCAbstractRetrievalViewType.swift */; };
+		991FFC8E21634C4800797C14 /* SCAbstractRetrievalViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FFC8C2163359A00797C14 /* SCAbstractRetrievalViewType.swift */; };
+		991FFC8F21634C4800797C14 /* SCAbstractRetrievalViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FFC8C2163359A00797C14 /* SCAbstractRetrievalViewType.swift */; };
+		991FFC9021634C4A00797C14 /* SCAbstractRetrievalViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FFC8C2163359A00797C14 /* SCAbstractRetrievalViewType.swift */; };
 		991FFCD92163A61C00797C14 /* ScienceDirectArticleEntitlementRetrievalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FFCD82163A61C00797C14 /* ScienceDirectArticleEntitlementRetrievalModel.swift */; };
 		991FFCDB2163A81900797C14 /* ScienceDirectArticleRetrievalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FFCDA2163A81900797C14 /* ScienceDirectArticleRetrievalModel.swift */; };
 		991FFCDD2163A87700797C14 /* ScienceDirectObjectRetrievalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991FFCDC2163A87700797C14 /* ScienceDirectObjectRetrievalModel.swift */; };
@@ -39,10 +39,10 @@
 		992639DC2150A61500F22225 /* ResourceVersionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992639DA2150A61500F22225 /* ResourceVersionType.swift */; };
 		992639DD2150A61500F22225 /* ResourceVersionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992639DA2150A61500F22225 /* ResourceVersionType.swift */; };
 		992639DE2150A61500F22225 /* ResourceVersionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992639DA2150A61500F22225 /* ResourceVersionType.swift */; };
-		992639E02150A71300F22225 /* ScopusSearchViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992639DF2150A71300F22225 /* ScopusSearchViewType.swift */; };
-		992639E12150A71300F22225 /* ScopusSearchViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992639DF2150A71300F22225 /* ScopusSearchViewType.swift */; };
-		992639E22150A71300F22225 /* ScopusSearchViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992639DF2150A71300F22225 /* ScopusSearchViewType.swift */; };
-		992639E32150A71300F22225 /* ScopusSearchViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992639DF2150A71300F22225 /* ScopusSearchViewType.swift */; };
+		992639E02150A71300F22225 /* SCSearchViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992639DF2150A71300F22225 /* SCSearchViewType.swift */; };
+		992639E12150A71300F22225 /* SCSearchViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992639DF2150A71300F22225 /* SCSearchViewType.swift */; };
+		992639E22150A71300F22225 /* SCSearchViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992639DF2150A71300F22225 /* SCSearchViewType.swift */; };
+		992639E32150A71300F22225 /* SCSearchViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992639DF2150A71300F22225 /* SCSearchViewType.swift */; };
 		992639E52150A99F00F22225 /* SCSortType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992639E42150A99F00F22225 /* SCSortType.swift */; };
 		992639E62150A99F00F22225 /* SCSortType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992639E42150A99F00F22225 /* SCSortType.swift */; };
 		992639E72150A99F00F22225 /* SCSortType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992639E42150A99F00F22225 /* SCSortType.swift */; };
@@ -200,14 +200,14 @@
 
 /* Begin PBXFileReference section */
 		991FFC872163314B00797C14 /* ScopusAbstractRetrievalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopusAbstractRetrievalModel.swift; sourceTree = "<group>"; };
-		991FFC8C2163359A00797C14 /* ScopusAbstractRetrievalViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopusAbstractRetrievalViewType.swift; sourceTree = "<group>"; };
+		991FFC8C2163359A00797C14 /* SCAbstractRetrievalViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCAbstractRetrievalViewType.swift; sourceTree = "<group>"; };
 		991FFCD82163A61C00797C14 /* ScienceDirectArticleEntitlementRetrievalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceDirectArticleEntitlementRetrievalModel.swift; sourceTree = "<group>"; };
 		991FFCDA2163A81900797C14 /* ScienceDirectArticleRetrievalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceDirectArticleRetrievalModel.swift; sourceTree = "<group>"; };
 		991FFCDC2163A87700797C14 /* ScienceDirectObjectRetrievalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceDirectObjectRetrievalModel.swift; sourceTree = "<group>"; };
 		992639D02150A37E00F22225 /* ElsevierKitScopus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElsevierKitScopus.swift; sourceTree = "<group>"; };
 		992639D52150A3D800F22225 /* Scopus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scopus.swift; sourceTree = "<group>"; };
 		992639DA2150A61500F22225 /* ResourceVersionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceVersionType.swift; sourceTree = "<group>"; };
-		992639DF2150A71300F22225 /* ScopusSearchViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopusSearchViewType.swift; sourceTree = "<group>"; };
+		992639DF2150A71300F22225 /* SCSearchViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCSearchViewType.swift; sourceTree = "<group>"; };
 		992639E42150A99F00F22225 /* SCSortType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCSortType.swift; sourceTree = "<group>"; };
 		992639E92150AB6A00F22225 /* ContentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentType.swift; sourceTree = "<group>"; };
 		992639EE2150AC2F00F22225 /* SubjectType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectType.swift; sourceTree = "<group>"; };
@@ -496,9 +496,9 @@
 		99C0F27B2164E4F90018C845 /* Scopus */ = {
 			isa = PBXGroup;
 			children = (
-				992639DF2150A71300F22225 /* ScopusSearchViewType.swift */,
+				992639DF2150A71300F22225 /* SCSearchViewType.swift */,
 				992639E42150A99F00F22225 /* SCSortType.swift */,
-				991FFC8C2163359A00797C14 /* ScopusAbstractRetrievalViewType.swift */,
+				991FFC8C2163359A00797C14 /* SCAbstractRetrievalViewType.swift */,
 			);
 			name = Scopus;
 			sourceTree = "<group>";
@@ -943,9 +943,9 @@
 				991FFCD92163A61C00797C14 /* ScienceDirectArticleEntitlementRetrievalModel.swift in Sources */,
 				99C0F2812164E9690018C845 /* SDArticleViewType.swift in Sources */,
 				99871C39214D7B6E00385C93 /* ElsevierKit.swift in Sources */,
-				992639E02150A71300F22225 /* ScopusSearchViewType.swift in Sources */,
+				992639E02150A71300F22225 /* SCSearchViewType.swift in Sources */,
 				992639F42150B2B100F22225 /* ScopusSearchModel.swift in Sources */,
-				991FFC8D2163359A00797C14 /* ScopusAbstractRetrievalViewType.swift in Sources */,
+				991FFC8D2163359A00797C14 /* SCAbstractRetrievalViewType.swift in Sources */,
 				991FFC882163314B00797C14 /* ScopusAbstractRetrievalModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -998,9 +998,9 @@
 				99871C5E214DB80700385C93 /* API.swift in Sources */,
 				99C0F2842164E9690018C845 /* SDArticleViewType.swift in Sources */,
 				99871C3A214D7B6E00385C93 /* ElsevierKit.swift in Sources */,
-				992639E32150A71300F22225 /* ScopusSearchViewType.swift in Sources */,
+				992639E32150A71300F22225 /* SCSearchViewType.swift in Sources */,
 				992639F72150B2B100F22225 /* ScopusSearchModel.swift in Sources */,
-				991FFC9021634C4A00797C14 /* ScopusAbstractRetrievalViewType.swift in Sources */,
+				991FFC9021634C4A00797C14 /* SCAbstractRetrievalViewType.swift in Sources */,
 				991FFC8B2163315100797C14 /* ScopusAbstractRetrievalModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1040,9 +1040,9 @@
 				99871C5D214DB80700385C93 /* API.swift in Sources */,
 				99C0F2832164E9690018C845 /* SDArticleViewType.swift in Sources */,
 				99871C3B214D7B7000385C93 /* ElsevierKit.swift in Sources */,
-				992639E22150A71300F22225 /* ScopusSearchViewType.swift in Sources */,
+				992639E22150A71300F22225 /* SCSearchViewType.swift in Sources */,
 				992639F62150B2B100F22225 /* ScopusSearchModel.swift in Sources */,
-				991FFC8F21634C4800797C14 /* ScopusAbstractRetrievalViewType.swift in Sources */,
+				991FFC8F21634C4800797C14 /* SCAbstractRetrievalViewType.swift in Sources */,
 				991FFC8A2163315000797C14 /* ScopusAbstractRetrievalModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1095,9 +1095,9 @@
 				99871C5C214DB80700385C93 /* API.swift in Sources */,
 				99C0F2822164E9690018C845 /* SDArticleViewType.swift in Sources */,
 				99871C3C214D7B7100385C93 /* ElsevierKit.swift in Sources */,
-				992639E12150A71300F22225 /* ScopusSearchViewType.swift in Sources */,
+				992639E12150A71300F22225 /* SCSearchViewType.swift in Sources */,
 				992639F52150B2B100F22225 /* ScopusSearchModel.swift in Sources */,
-				991FFC8E21634C4800797C14 /* ScopusAbstractRetrievalViewType.swift in Sources */,
+				991FFC8E21634C4800797C14 /* SCAbstractRetrievalViewType.swift in Sources */,
 				991FFC892163315000797C14 /* ScopusAbstractRetrievalModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
