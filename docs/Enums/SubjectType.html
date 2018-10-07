@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SubjectType Enumeration Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Enum/SubjectType" class="dashAnchor"></a>
+    <a title="SubjectType Enumeration Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (23% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        SubjectType Enumeration Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/ElsevierKit.html">ElsevierKit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ElsevierKitAuthenticate.html">ElsevierKitAuthenticate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ElsevierKitEngineeringVillage.html">ElsevierKitEngineeringVillage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ElsevierKitScienceDirect.html">ElsevierKitScienceDirect</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ElsevierKitScopus.html">ElsevierKitScopus</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/ContentType.html">ContentType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/EVDatabaseType.html">EVDatabaseType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/EVSortDirectionType.html">EVSortDirectionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/EVSortFieldType.html">EVSortFieldType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ElsevierKitError.html">ElsevierKitError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PlatformType.html">PlatformType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ResourceVersionType.html">ResourceVersionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SCAbstractRetrievalViewType.html">SCAbstractRetrievalViewType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SCSearchViewType.html">SCSearchViewType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SCSortType.html">SCSortType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SDArticleEntitlementViewType.html">SDArticleEntitlementViewType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SDArticleViewType.html">SDArticleViewType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SDSortType.html">SDSortType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SubjectType.html">SubjectType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/API.html">API</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/API/ScienceDirect.html">– ScienceDirect</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/API/Scopus.html">– Scopus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/API/EngineeringVillage.html">– EngineeringVillage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AuthenticateModel.html">AuthenticateModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AuthenticateModel/Response.html">– Response</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ElsevierHeader.html">ElsevierHeader</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/EngineeringVillageSearchModel.html">EngineeringVillageSearchModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/EngineeringVillageSearchModel/Page.html">– Page</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ScienceDirectArticleEntitlementRetrievalModel.html">ScienceDirectArticleEntitlementRetrievalModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ScienceDirectArticleEntitlementRetrievalModel/EntitlementResponse.html">– EntitlementResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ScienceDirectArticleRetrievalModel.html">ScienceDirectArticleRetrievalModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ScienceDirectArticleRetrievalModel/FullTextRetrievalResponse.html">– FullTextRetrievalResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ScienceDirectObjectRetrievalModel.html">ScienceDirectObjectRetrievalModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ScienceDirectObjectRetrievalModel/Choices.html">– Choices</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ScienceDirectSearchModel.html">ScienceDirectSearchModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ScienceDirectSearchModel/Result.html">– Result</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ScopusAbstractRetrievalModel.html">ScopusAbstractRetrievalModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ScopusAbstractRetrievalModel/AbstractsRetrievalResponse.html">– AbstractsRetrievalResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ScopusAffiliationModel.html">ScopusAffiliationModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ScopusAffiliationModel/SearchResults.html">– SearchResults</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ScopusAuthorModel.html">ScopusAuthorModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ScopusAuthorModel/SearchResults.html">– SearchResults</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ScopusSearchModel.html">ScopusSearchModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ScopusSearchModel/SearchResults.html">– SearchResults</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>SubjectType</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">SubjectType</span> <span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                </div>
+              </div>
+            <p>Represents the subject area code associated with the content category desired. Note that these subject code mapping vary based upon the environment in which the request is executed.</p>
+
+<p>The following resource shows all of the available subject classifications.</p>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <a href="https://dev.elsevier.com/documentation/ScopusSearchAPI.wadl">https://dev.elsevier.com/documentation/ScopusSearchAPI.wadl</a>
+
+</div>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit11SubjectTypeO33agriculturalAndBiologicalSciencesyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/agriculturalAndBiologicalSciences" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit11SubjectTypeO33agriculturalAndBiologicalSciencesyA2CmF">agriculturalAndBiologicalSciences</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Agricultural and Biological Sciences</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">agriculturalAndBiologicalSciences</span> <span class="o">=</span> <span class="s">"AGRI"</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit11SubjectTypeO17artsAndHumanitiesyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/artsAndHumanities" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit11SubjectTypeO17artsAndHumanitiesyA2CmF">artsAndHumanities</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Arts and Humanities</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">artsAndHumanities</span> <span class="o">=</span> <span class="s">"ARTS"</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit11SubjectTypeO39biochemistryGeneticsAndMolecularBiologyyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/biochemistryGeneticsAndMolecularBiology" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit11SubjectTypeO39biochemistryGeneticsAndMolecularBiologyyA2CmF">biochemistryGeneticsAndMolecularBiology</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Biochemistry, Genetics and Molecular Biology</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">biochemistryGeneticsAndMolecularBiology</span> <span class="o">=</span> <span class="s">"BIOC"</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit11SubjectTypeO31businessManagementAndAccountingyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/businessManagementAndAccounting" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit11SubjectTypeO31businessManagementAndAccountingyA2CmF">businessManagementAndAccounting</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Business, Management and Accounting</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">businessManagementAndAccounting</span> <span class="o">=</span> <span class="s">"BUSI"</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit11SubjectTypeO19chemicalEngineeringyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/chemicalEngineering" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit11SubjectTypeO19chemicalEngineeringyA2CmF">chemicalEngineering</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Chemical Engineering</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">chemicalEngineering</span> <span class="o">=</span> <span class="s">"CENG"</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit11SubjectTypeO9chemistryyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/chemistry" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit11SubjectTypeO9chemistryyA2CmF">chemistry</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Chemistry</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">chemistry</span> <span class="o">=</span> <span class="s">"CHEM"</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit11SubjectTypeO15computerScienceyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/computerScience" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit11SubjectTypeO15computerScienceyA2CmF">computerScience</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Computer Science</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">computerScience</span> <span class="o">=</span> <span class="s">"COMP"</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit11SubjectTypeO16decisionSciencesyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/decisionSciences" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit11SubjectTypeO16decisionSciencesyA2CmF">decisionSciences</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Decision Sciences</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">decisionSciences</span> <span class="o">=</span> <span class="s">"DECI"</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit11SubjectTypeO9dentistryyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/dentistry" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit11SubjectTypeO9dentistryyA2CmF">dentistry</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Dentistry</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">dentistry</span> <span class="o">=</span> <span class="s">"DENT"</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit11SubjectTypeO25earthAndPlanetarySciencesyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/earthAndPlanetarySciences" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit11SubjectTypeO25earthAndPlanetarySciencesyA2CmF">earthAndPlanetarySciences</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Earth and Planetary Sciences</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">earthAndPlanetarySciences</span> <span class="o">=</span> <span class="s">"EART"</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit11SubjectTypeO31economicsEconometricsAndFinanceyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/economicsEconometricsAndFinance" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit11SubjectTypeO31economicsEconometricsAndFinanceyA2CmF">economicsEconometricsAndFinance</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Economics, Econometrics and Finance</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">economicsEconometricsAndFinance</span> <span class="o">=</span> <span class="s">"ECON"</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit11SubjectTypeO6energyyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/energy" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit11SubjectTypeO6energyyA2CmF">energy</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Energy</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">energy</span> <span class="o">=</span> <span class="s">"ENER"</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit11SubjectTypeO11engineeringyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/engineering" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit11SubjectTypeO11engineeringyA2CmF">engineering</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Engineering</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">engineering</span> <span class="o">=</span> <span class="s">"ENGI"</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit11SubjectTypeO20environmentalScienceyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/environmentalScience" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit11SubjectTypeO20environmentalScienceyA2CmF">environmentalScience</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Environmental Science</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">environmentalScience</span> <span class="o">=</span> <span class="s">"ENVI"</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit11SubjectTypeO17healthProfessionsyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/healthProfessions" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit11SubjectTypeO17healthProfessionsyA2CmF">healthProfessions</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Health Professions</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">healthProfessions</span> <span class="o">=</span> <span class="s">"HEAL"</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit11SubjectTypeO25immunologyAndMicrobiologyyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/immunologyAndMicrobiology" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit11SubjectTypeO25immunologyAndMicrobiologyyA2CmF">immunologyAndMicrobiology</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Immunology and Microbiology</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">immunologyAndMicrobiology</span> <span class="o">=</span> <span class="s">"IMMU"</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit11SubjectTypeO16materialsScienceyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/materialsScience" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit11SubjectTypeO16materialsScienceyA2CmF">materialsScience</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Materials Science</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">materialsScience</span> <span class="o">=</span> <span class="s">"MATE"</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit11SubjectTypeO11mathematicsyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/mathematics" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit11SubjectTypeO11mathematicsyA2CmF">mathematics</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Mathematics</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">mathematics</span> <span class="o">=</span> <span class="s">"MATH"</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit11SubjectTypeO8medicineyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/medicine" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit11SubjectTypeO8medicineyA2CmF">medicine</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Medicine</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">medicine</span> <span class="o">=</span> <span class="s">"MEDI"</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit11SubjectTypeO12neuroscienceyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/neuroscience" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit11SubjectTypeO12neuroscienceyA2CmF">neuroscience</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Neuroscience</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">neuroscience</span> <span class="o">=</span> <span class="s">"NEUR"</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit11SubjectTypeO7nursingyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/nursing" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit11SubjectTypeO7nursingyA2CmF">nursing</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Nursing</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">nursing</span> <span class="o">=</span> <span class="s">"NURS"</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit11SubjectTypeO38pharmacologyToxicologyAndPharmaceuticsyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/pharmacologyToxicologyAndPharmaceutics" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit11SubjectTypeO38pharmacologyToxicologyAndPharmaceuticsyA2CmF">pharmacologyToxicologyAndPharmaceutics</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Pharmacology, Toxicology and Pharmaceutics</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">pharmacologyToxicologyAndPharmaceutics</span> <span class="o">=</span> <span class="s">"PHAR"</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit11SubjectTypeO19physicsAndAstronomyyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/physicsAndAstronomy" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit11SubjectTypeO19physicsAndAstronomyyA2CmF">physicsAndAstronomy</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Physics and Astronomy</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">physicsAndAstronomy</span> <span class="o">=</span> <span class="s">"PHYS"</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit11SubjectTypeO10psychologyyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/psychology" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit11SubjectTypeO10psychologyyA2CmF">psychology</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Psychology</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">psychology</span> <span class="o">=</span> <span class="s">"PSYC"</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit11SubjectTypeO14socialSciencesyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/socialSciences" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit11SubjectTypeO14socialSciencesyA2CmF">socialSciences</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Social Sciences</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">socialSciences</span> <span class="o">=</span> <span class="s">"SOCI"</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit11SubjectTypeO10veterinaryyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/veterinary" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit11SubjectTypeO10veterinaryyA2CmF">veterinary</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Veterinary</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">veterinary</span> <span class="o">=</span> <span class="s">"VETE"</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit11SubjectTypeO17multidisciplinaryyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/multidisciplinary" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit11SubjectTypeO17multidisciplinaryyA2CmF">multidisciplinary</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Multidisciplinary</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">case</span> <span class="n">multidisciplinary</span> <span class="o">=</span> <span class="s">"MULT"</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2018-10-07)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

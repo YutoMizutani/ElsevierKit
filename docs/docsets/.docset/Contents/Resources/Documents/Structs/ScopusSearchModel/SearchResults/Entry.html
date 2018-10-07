@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Entry Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../../../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../../../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../../../js/jquery.min.js" defer></script>
+    <script src="../../../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/Entry" class="dashAnchor"></a>
+    <a title="Entry Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../../../index.html"> Docs</a> (23% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../../../index.html"> Reference</a>
+        <img id="carat" src="../../../img/carat.png" />
+        Entry Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../../../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../../Classes/ElsevierKit.html">ElsevierKit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Classes/ElsevierKitAuthenticate.html">ElsevierKitAuthenticate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Classes/ElsevierKitEngineeringVillage.html">ElsevierKitEngineeringVillage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Classes/ElsevierKitScienceDirect.html">ElsevierKitScienceDirect</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Classes/ElsevierKitScopus.html">ElsevierKitScopus</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../../Enums/ContentType.html">ContentType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Enums/EVDatabaseType.html">EVDatabaseType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Enums/EVSortDirectionType.html">EVSortDirectionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Enums/EVSortFieldType.html">EVSortFieldType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Enums/ElsevierKitError.html">ElsevierKitError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Enums/PlatformType.html">PlatformType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Enums/ResourceVersionType.html">ResourceVersionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Enums/SCAbstractRetrievalViewType.html">SCAbstractRetrievalViewType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Enums/SCSearchViewType.html">SCSearchViewType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Enums/SCSortType.html">SCSortType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Enums/SDArticleEntitlementViewType.html">SDArticleEntitlementViewType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Enums/SDArticleViewType.html">SDArticleViewType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Enums/SDSortType.html">SDSortType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Enums/SubjectType.html">SubjectType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../../../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../../Structs/API.html">API</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Structs/API/ScienceDirect.html">– ScienceDirect</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Structs/API/Scopus.html">– Scopus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Structs/API/EngineeringVillage.html">– EngineeringVillage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Structs/AuthenticateModel.html">AuthenticateModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Structs/AuthenticateModel/Response.html">– Response</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Structs/ElsevierHeader.html">ElsevierHeader</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Structs/EngineeringVillageSearchModel.html">EngineeringVillageSearchModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Structs/EngineeringVillageSearchModel/Page.html">– Page</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Structs/ScienceDirectArticleEntitlementRetrievalModel.html">ScienceDirectArticleEntitlementRetrievalModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Structs/ScienceDirectArticleEntitlementRetrievalModel/EntitlementResponse.html">– EntitlementResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Structs/ScienceDirectArticleRetrievalModel.html">ScienceDirectArticleRetrievalModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Structs/ScienceDirectArticleRetrievalModel/FullTextRetrievalResponse.html">– FullTextRetrievalResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Structs/ScienceDirectObjectRetrievalModel.html">ScienceDirectObjectRetrievalModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Structs/ScienceDirectObjectRetrievalModel/Choices.html">– Choices</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Structs/ScienceDirectSearchModel.html">ScienceDirectSearchModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Structs/ScienceDirectSearchModel/Result.html">– Result</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Structs/ScopusAbstractRetrievalModel.html">ScopusAbstractRetrievalModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Structs/ScopusAbstractRetrievalModel/AbstractsRetrievalResponse.html">– AbstractsRetrievalResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Structs/ScopusAffiliationModel.html">ScopusAffiliationModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Structs/ScopusAffiliationModel/SearchResults.html">– SearchResults</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Structs/ScopusAuthorModel.html">ScopusAuthorModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Structs/ScopusAuthorModel/SearchResults.html">– SearchResults</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Structs/ScopusSearchModel.html">ScopusSearchModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../../Structs/ScopusSearchModel/SearchResults.html">– SearchResults</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Entry</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Entry</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV2faSSvp"></a>
+                    <a name="//apple_ref/swift/Property/fa" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV2faSSvp">fa</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">fa</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV4linkSayAE4LinkVGvp"></a>
+                    <a name="//apple_ref/swift/Property/link" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV4linkSayAE4LinkVGvp">link</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">link</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../../../Structs/ScopusSearchModel/SearchResults/Link.html">Link</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV3urlSSvp"></a>
+                    <a name="//apple_ref/swift/Property/url" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV3urlSSvp">url</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">url</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV10identifierSSvp"></a>
+                    <a name="//apple_ref/swift/Property/identifier" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV10identifierSSvp">identifier</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">identifier</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV5titleSSvp"></a>
+                    <a name="//apple_ref/swift/Property/title" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV5titleSSvp">title</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">title</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV7creatorSSvp"></a>
+                    <a name="//apple_ref/swift/Property/creator" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV7creatorSSvp">creator</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">creator</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV15publicationNameSSvp"></a>
+                    <a name="//apple_ref/swift/Property/publicationName" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV15publicationNameSSvp">publicationName</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">publicationName</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV4issnSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/issn" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV4issnSSSgvp">issn</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">issn</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV5eIssnSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/eIssn" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV5eIssnSSSgvp">eIssn</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">eIssn</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV8sourceIDSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/sourceID" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV8sourceIDSSSgvp">sourceID</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">sourceID</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV12isOpenAccessSbSgvp"></a>
+                    <a name="//apple_ref/swift/Property/isOpenAccess" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV12isOpenAccessSbSgvp">isOpenAccess</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">isOpenAccess</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV10openaccessSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/openaccess" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV10openaccessSSSgvp">openaccess</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">openaccess</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV6volumeSSvp"></a>
+                    <a name="//apple_ref/swift/Property/volume" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV6volumeSSvp">volume</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">volume</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV15issueIdentifierSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/issueIdentifier" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV15issueIdentifierSSSgvp">issueIdentifier</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">issueIdentifier</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV9pageRangeSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/pageRange" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV9pageRangeSSSgvp">pageRange</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">pageRange</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV9coverDateSSvp"></a>
+                    <a name="//apple_ref/swift/Property/coverDate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV9coverDateSSvp">coverDate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">coverDate</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV16coverDisplayDateSSvp"></a>
+                    <a name="//apple_ref/swift/Property/coverDisplayDate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV16coverDisplayDateSSvp">coverDisplayDate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">coverDisplayDate</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV3doiSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/doi" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV3doiSSSgvp">doi</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">doi</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV11descriptionSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/description" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV11descriptionSSSgvp">description</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">description</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV12citedByCountSSvp"></a>
+                    <a name="//apple_ref/swift/Property/citedByCount" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV12citedByCountSSvp">citedByCount</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">citedByCount</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV11affiliationSayAG11AffiliationVGvp"></a>
+                    <a name="//apple_ref/swift/Property/affiliation" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV11affiliationSayAG11AffiliationVGvp">affiliation</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">affiliation</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../../../Structs/ScopusSearchModel/SearchResults/Entry/Affiliation.html">Affiliation</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV15aggregationTypeSSvp"></a>
+                    <a name="//apple_ref/swift/Property/aggregationType" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV15aggregationTypeSSvp">aggregationType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">aggregationType</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV7subtypeSSvp"></a>
+                    <a name="//apple_ref/swift/Property/subtype" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV7subtypeSSvp">subtype</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">subtype</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV18subtypeDescriptionSSvp"></a>
+                    <a name="//apple_ref/swift/Property/subtypeDescription" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV18subtypeDescriptionSSvp">subtypeDescription</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">subtypeDescription</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV6authorSayAG6AuthorVGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/author" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV6authorSayAG6AuthorVGSgvp">author</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">author</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../../../Structs/ScopusSearchModel/SearchResults/Entry/Author.html">Author</a></span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV12authkeywordsSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/authkeywords" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV12authkeywordsSSSgvp">authkeywords</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">authkeywords</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV3eidSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/eid" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV3eidSSSgvp">eid</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">eid</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV3piiSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/pii" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV3piiSSSgvp">pii</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">pii</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV11AffiliationV"></a>
+                    <a name="//apple_ref/swift/Struct/Affiliation" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV11AffiliationV">Affiliation</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../../../Structs/ScopusSearchModel/SearchResults/Entry/Affiliation.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Affiliation</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV6AuthorV"></a>
+                    <a name="//apple_ref/swift/Struct/Author" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ElsevierKit17ScopusSearchModelV0D7ResultsV5EntryV6AuthorV">Author</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../../../Structs/ScopusSearchModel/SearchResults/Entry/Author.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Author</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2018-10-07)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
