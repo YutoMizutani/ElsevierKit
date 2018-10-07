@@ -12,31 +12,19 @@ import Foundation
  */
 public struct ScienceDirectSearchModel: Codable {
     public let resultsFound: Int?
-
     public let results: [Result]?
 
     public struct Result: Codable {
-
         public let authors: [Author]
-
         public let doi: String
-
         public let loadDate: String
-
         public let isOpenAccess: Bool
-
         public let pages: Pages
-
         public let pii: String
-
         public let publicationDate: String
-
         public let sourceTitle: String
-
         public let title: String
-
         public let uri: String
-
         public let volumeIssue: String?
 
         private enum CodingKeys: String, CodingKey {
