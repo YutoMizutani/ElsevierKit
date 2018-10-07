@@ -21,6 +21,10 @@ public struct API {
     public enum ScienceDirect {
         /// ScienceDirect Search API V2
         public static let search: String = "https://api.elsevier.com/content/search/sciencedirect"
+        /// ScienceDirect Article (Full Text) Retrieval API
+        public static let article: String = "https://api.elsevier.com/content/article"
+        /// Content Full Text Entitlement API
+        public static let articleEntitlement: String = "https://api.elsevier.com/content/article/entitlement"
     }
 
     /// ScienceDirect APIs
@@ -31,5 +35,13 @@ public struct API {
         public static let author: String = "https://api.elsevier.com/content/search/author"
         /// Scopus Search API
         public static let search: String = "https://api.elsevier.com/content/search/scopus"
+        /// Abstract Retrieval API
+        public static let abstruct: String = "https://api.elsevier.com/content/abstract"
+    }
+
+    /// Engineering Village APIs
+    public enum EngineeringVillage {
+        /// Engineering Village Search API
+        public static let search: String = "https://api.elsevier.com/content/ev/results"
     }
 }

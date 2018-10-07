@@ -107,4 +107,408 @@ public extension ElsevierKitScienceDirect {
                                        failure?(error)
                                    })
     }
+
+    // MARK: - Article (Full Text) Retrieval API
+
+    /**
+
+     Article Retrieval API: This represents retrieval of a full text article by DOI (Document Object Identifier).
+
+     - Parameters:
+         - doi: DOI (Document Object Identifier)
+         - field: This alias represents the name of specific fields that should be returned. The list of fields include all of the fields returned in the response payload (see view). Multiple fields can be specified, delimited by commas.
+         - viewType: This alias represents the list of elements that will be returned in the response. The following chart shows the [Article Retrieval Views](https://dev.elsevier.com/guides/ArticleRetrievalViews.htm).
+         - startref: Applicable only to REF view. Numeric value representing the results offset (i.e. starting position for the resolved references).
+         - refcount: Applicable only to REF view. Numeric value representing the maximum number of resolved references to be returned. If not provided this will be set to a system default based on service level.
+         - success: Success handler
+         - failure: Failure handler
+
+     - SeeAlso:
+     https://dev.elsevier.com/documentation/ArticleRetrievalAPI.wadl
+     */
+    func article(doi: String,
+                 field: String? = nil,
+                 viewType view: SDArticleViewType? = nil,
+                 startref: Int? = nil,
+                 refcount: Int? = nil,
+                 success: ElsevierKit.SuccessHandler<ScienceDirectArticleRetrievalModel>? = nil,
+                 failure: ElsevierKit.FailureHandler? = nil) {
+
+        var parameters: Parameters = Parameters()
+        parameters["field"] ?= field
+        parameters["view"] ?= view?.rawValue
+        parameters["startref"] ?= startref?.description
+        parameters["refcount"] ?= refcount?.description
+
+        let url = API.ScienceDirect.article + "/doi/\(doi)"
+        ElsevierKit.shared.request(url,
+                                   method: .get,
+                                   parameters: parameters,
+                                   success: { model in
+                                       success?(model)
+                                   },
+                                   failure: { error in
+                                       failure?(error)
+                                   })
+    }
+
+    /**
+
+     Article Retrieval API: This represents retrieval of a full text article by PII (Publication Item Identifier).
+
+     - Parameters:
+         - pii: PII (Publication Item Identifier)
+         - field: This alias represents the name of specific fields that should be returned. The list of fields include all of the fields returned in the response payload (see view). Multiple fields can be specified, delimited by commas.
+         - viewType: This alias represents the list of elements that will be returned in the response. The following chart shows the [Article Retrieval Views](https://dev.elsevier.com/guides/ArticleRetrievalViews.htm).
+         - startref: Applicable only to REF view. Numeric value representing the results offset (i.e. starting position for the resolved references).
+         - refcount: Applicable only to REF view. Numeric value representing the maximum number of resolved references to be returned. If not provided this will be set to a system default based on service level.
+         - success: Success handler
+         - failure: Failure handler
+
+     - SeeAlso:
+     https://dev.elsevier.com/documentation/ArticleRetrievalAPI.wadl
+     */
+    func article(pii: String,
+                 field: String? = nil,
+                 viewType view: SDArticleViewType? = nil,
+                 startref: Int? = nil,
+                 refcount: Int? = nil,
+                 success: ElsevierKit.SuccessHandler<ScienceDirectArticleRetrievalModel>? = nil,
+                 failure: ElsevierKit.FailureHandler? = nil) {
+
+        var parameters: Parameters = Parameters()
+        parameters["field"] ?= field
+        parameters["view"] ?= view?.rawValue
+        parameters["startref"] ?= startref?.description
+        parameters["refcount"] ?= refcount?.description
+
+        let url = API.ScienceDirect.article + "/pii/\(pii)"
+        ElsevierKit.shared.request(url,
+                                   method: .get,
+                                   parameters: parameters,
+                                   success: { model in
+                                       success?(model)
+                                   },
+                                   failure: { error in
+                                       failure?(error)
+                                   })
+    }
+
+    /**
+
+     Article Retrieval API: This represents retrieval of a full text article by EID (Electronic Identifier). This can either be the full-text article identifier or the corresponding Scopus abstract identifier.
+
+     - Parameters:
+         - eid: EID (Electronic Identifier)
+         - field: This alias represents the name of specific fields that should be returned. The list of fields include all of the fields returned in the response payload (see view). Multiple fields can be specified, delimited by commas.
+         - viewType: This alias represents the list of elements that will be returned in the response. The following chart shows the [Article Retrieval Views](https://dev.elsevier.com/guides/ArticleRetrievalViews.htm).
+         - startref: Applicable only to REF view. Numeric value representing the results offset (i.e. starting position for the resolved references).
+         - refcount: Applicable only to REF view. Numeric value representing the maximum number of resolved references to be returned. If not provided this will be set to a system default based on service level.
+         - success: Success handler
+         - failure: Failure handler
+
+     - SeeAlso:
+     https://dev.elsevier.com/documentation/ArticleRetrievalAPI.wadl
+     */
+    func article(eid: String,
+                 field: String? = nil,
+                 viewType view: SDArticleViewType? = nil,
+                 startref: Int? = nil,
+                 refcount: Int? = nil,
+                 success: ElsevierKit.SuccessHandler<ScienceDirectArticleRetrievalModel>? = nil,
+                 failure: ElsevierKit.FailureHandler? = nil) {
+
+        var parameters: Parameters = Parameters()
+        parameters["field"] ?= field
+        parameters["view"] ?= view?.rawValue
+        parameters["startref"] ?= startref?.description
+        parameters["refcount"] ?= refcount?.description
+
+        let url = API.ScienceDirect.article + "/eid/\(eid)"
+        ElsevierKit.shared.request(url,
+                                   method: .get,
+                                   parameters: parameters,
+                                   success: { model in
+                                       success?(model)
+                                   },
+                                   failure: { error in
+                                       failure?(error)
+                                   })
+    }
+
+    /**
+
+     Article Retrieval API: This represents retrieval of a full text article by Scopus ID.
+
+     - Parameters:
+         - scopusID: Scopus ID
+         - field: This alias represents the name of specific fields that should be returned. The list of fields include all of the fields returned in the response payload (see view). Multiple fields can be specified, delimited by commas.
+         - viewType: This alias represents the list of elements that will be returned in the response. The following chart shows the [Article Retrieval Views](https://dev.elsevier.com/guides/ArticleRetrievalViews.htm).
+         - startref: Applicable only to REF view. Numeric value representing the results offset (i.e. starting position for the resolved references).
+         - refcount: Applicable only to REF view. Numeric value representing the maximum number of resolved references to be returned. If not provided this will be set to a system default based on service level.
+         - success: Success handler
+         - failure: Failure handler
+
+     - SeeAlso:
+     https://dev.elsevier.com/documentation/ArticleRetrievalAPI.wadl
+     */
+    func article(scopusID id: String,
+                 field: String? = nil,
+                 viewType view: SDArticleViewType? = nil,
+                 startref: Int? = nil,
+                 refcount: Int? = nil,
+                 success: ElsevierKit.SuccessHandler<ScienceDirectArticleRetrievalModel>? = nil,
+                 failure: ElsevierKit.FailureHandler? = nil) {
+
+        var parameters: Parameters = Parameters()
+        parameters["field"] ?= field
+        parameters["view"] ?= view?.rawValue
+        parameters["startref"] ?= startref?.description
+        parameters["refcount"] ?= refcount?.description
+
+        let url = API.ScienceDirect.article + "/scopus_id/\(id)"
+        ElsevierKit.shared.request(url,
+                                   method: .get,
+                                   parameters: parameters,
+                                   success: { model in
+                                       success?(model)
+                                   },
+                                   failure: { error in
+                                       failure?(error)
+                                   })
+    }
+
+    /**
+
+     Article Retrieval API: This represents retrieval of a full text article by Pubmed ID (Medline ID).
+
+     - Parameters:
+         - pubmedID: Pubmed ID (Medline ID)
+         - field: This alias represents the name of specific fields that should be returned. The list of fields include all of the fields returned in the response payload (see view). Multiple fields can be specified, delimited by commas.
+         - viewType: This alias represents the list of elements that will be returned in the response. The following chart shows the [Article Retrieval Views](https://dev.elsevier.com/guides/ArticleRetrievalViews.htm).
+         - startref: Applicable only to REF view. Numeric value representing the results offset (i.e. starting position for the resolved references).
+         - refcount: Applicable only to REF view. Numeric value representing the maximum number of resolved references to be returned. If not provided this will be set to a system default based on service level.
+         - success: Success handler
+         - failure: Failure handler
+
+     - SeeAlso:
+     https://dev.elsevier.com/documentation/ArticleRetrievalAPI.wadl
+     */
+    func article(pubmedID id: String,
+                 field: String? = nil,
+                 viewType view: SDArticleViewType? = nil,
+                 startref: Int? = nil,
+                 refcount: Int? = nil,
+                 success: ElsevierKit.SuccessHandler<ScienceDirectArticleRetrievalModel>? = nil,
+                 failure: ElsevierKit.FailureHandler? = nil) {
+
+        var parameters: Parameters = Parameters()
+        parameters["field"] ?= field
+        parameters["view"] ?= view?.rawValue
+        parameters["startref"] ?= startref?.description
+        parameters["refcount"] ?= refcount?.description
+
+        let url = API.ScienceDirect.article + "/pubmed_id/\(id)"
+        ElsevierKit.shared.request(url,
+                                   method: .get,
+                                   parameters: parameters,
+                                   success: { model in
+                                       success?(model)
+                                   },
+                                   failure: { error in
+                                       failure?(error)
+                                   })
+    }
+
+    // MARK: - Content Full Text Entitlement API
+
+    /**
+
+     Full Text Entitlement API: This represents the entitlement status of the full text article(s) specified by PII (Publication Item Identifier). Multiple PII values can be submitted by including them as a comma-delimited list.
+
+     - Parameters:
+         - pii: PII (Publication Item Identifier)
+         - field: This alias represents the name of specific fields that should be returned. The list of fields include all of the fields returned in the response payload (see view). Multiple fields can be specified, delimited by commas.
+         - viewType: This alias represents the list of elements that will be returned in the response. The following chart shows the [Full-Text Entitlement Views](https://dev.elsevier.com/guides/ArticleEntitlementViews.htm).
+         - startref: Applicable only to REF view. Numeric value representing the results offset (i.e. starting position for the resolved references).
+         - refcount: Applicable only to REF view. Numeric value representing the maximum number of resolved references to be returned. If not provided this will be set to a system default based on service level.
+         - success: Success handler
+         - failure: Failure handler
+
+     - SeeAlso:
+     https://dev.elsevier.com/documentation/ArticleEntitlementAPI.wadl
+     */
+    func articleEntitlement(pii: String,
+                            field: String? = nil,
+                            viewType view: SDArticleEntitlementViewType? = nil,
+                            success: ElsevierKit.SuccessHandler<ScienceDirectArticleEntitlementRetrievalModel>? = nil,
+                            failure: ElsevierKit.FailureHandler? = nil) {
+
+        var parameters: Parameters = Parameters()
+        parameters["field"] ?= field
+        parameters["view"] ?= view?.rawValue
+
+        let url = API.ScienceDirect.articleEntitlement + "/pii/\(pii)"
+        ElsevierKit.shared.request(url,
+                                   method: .get,
+                                   parameters: parameters,
+                                   success: { model in
+                                       success?(model)
+                                   },
+                                   failure: { error in
+                                       failure?(error)
+                                   })
+    }
+
+    /**
+
+     Full Text Entitlement API: This represents the entitlement status of the full text article(s) specified by DOI (Document Object Identifier). Multiple DOI values can be submitted by including them as a comma-delimited list.
+
+     - Parameters:
+         - doi: DOI (Document Object Identifier)
+         - field: This alias represents the name of specific fields that should be returned. The list of fields include all of the fields returned in the response payload (see view). Multiple fields can be specified, delimited by commas.
+         - viewType: This alias represents the list of elements that will be returned in the response. The following chart shows the [Full-Text Entitlement Views](https://dev.elsevier.com/guides/ArticleEntitlementViews.htm).
+         - startref: Applicable only to REF view. Numeric value representing the results offset (i.e. starting position for the resolved references).
+         - refcount: Applicable only to REF view. Numeric value representing the maximum number of resolved references to be returned. If not provided this will be set to a system default based on service level.
+         - success: Success handler
+         - failure: Failure handler
+
+     - SeeAlso:
+     https://dev.elsevier.com/documentation/ArticleEntitlementAPI.wadl
+     */
+    func articleEntitlement(doi: String,
+                            field: String? = nil,
+                            viewType view: SDArticleEntitlementViewType? = nil,
+                            success: ElsevierKit.SuccessHandler<ScienceDirectArticleEntitlementRetrievalModel>? = nil,
+                            failure: ElsevierKit.FailureHandler? = nil) {
+
+        var parameters: Parameters = Parameters()
+        parameters["field"] ?= field
+        parameters["view"] ?= view?.rawValue
+
+        let url = API.ScienceDirect.articleEntitlement + "/doi/\(doi)"
+        ElsevierKit.shared.request(url,
+                                   method: .get,
+                                   parameters: parameters,
+                                   success: { model in
+                                       success?(model)
+                                   },
+                                   failure: { error in
+                                       failure?(error)
+                                   })
+    }
+
+    /**
+
+     Full Text Entitlement API: This represents the entitlement status of the full text article(s) specified by EID (Electronic Identifier). Multiple EID values can be submitted by including them as a comma-delimited list.
+
+     - Parameters:
+         - eid: EID (Electronic Identifier)
+         - field: This alias represents the name of specific fields that should be returned. The list of fields include all of the fields returned in the response payload (see view). Multiple fields can be specified, delimited by commas.
+         - viewType: This alias represents the list of elements that will be returned in the response. The following chart shows the [Full-Text Entitlement Views](https://dev.elsevier.com/guides/ArticleEntitlementViews.htm).
+         - startref: Applicable only to REF view. Numeric value representing the results offset (i.e. starting position for the resolved references).
+         - refcount: Applicable only to REF view. Numeric value representing the maximum number of resolved references to be returned. If not provided this will be set to a system default based on service level.
+         - success: Success handler
+         - failure: Failure handler
+
+     - SeeAlso:
+     https://dev.elsevier.com/documentation/ArticleEntitlementAPI.wadl
+     */
+    func articleEntitlement(eid: String,
+                            field: String? = nil,
+                            viewType view: SDArticleEntitlementViewType? = nil,
+                            success: ElsevierKit.SuccessHandler<ScienceDirectArticleEntitlementRetrievalModel>? = nil,
+                            failure: ElsevierKit.FailureHandler? = nil) {
+
+        var parameters: Parameters = Parameters()
+        parameters["field"] ?= field
+        parameters["view"] ?= view?.rawValue
+
+        let url = API.ScienceDirect.articleEntitlement + "/eid/\(eid)"
+        ElsevierKit.shared.request(url,
+                                   method: .get,
+                                   parameters: parameters,
+                                   success: { model in
+                                       success?(model)
+                                   },
+                                   failure: { error in
+                                       failure?(error)
+                                   })
+    }
+
+    /**
+
+     Full Text Entitlement API: This represents the entitlement status of the full text article(s) specified by Scopus ID. Multiple Scopus ID values can be submitted by including them as a comma-delimited list.
+
+     - Parameters:
+         - scopusID: Scopus ID
+         - field: This alias represents the name of specific fields that should be returned. The list of fields include all of the fields returned in the response payload (see view). Multiple fields can be specified, delimited by commas.
+         - viewType: This alias represents the list of elements that will be returned in the response. The following chart shows the [Full-Text Entitlement Views](https://dev.elsevier.com/guides/ArticleEntitlementViews.htm).
+         - startref: Applicable only to REF view. Numeric value representing the results offset (i.e. starting position for the resolved references).
+         - refcount: Applicable only to REF view. Numeric value representing the maximum number of resolved references to be returned. If not provided this will be set to a system default based on service level.
+         - success: Success handler
+         - failure: Failure handler
+
+     - SeeAlso:
+     https://dev.elsevier.com/documentation/ArticleEntitlementAPI.wadl
+     */
+    func articleEntitlement(scopusID id: String,
+                            field: String? = nil,
+                            viewType view: SDArticleEntitlementViewType? = nil,
+                            success: ElsevierKit.SuccessHandler<ScienceDirectArticleEntitlementRetrievalModel>? = nil,
+                            failure: ElsevierKit.FailureHandler? = nil) {
+
+        var parameters: Parameters = Parameters()
+        parameters["field"] ?= field
+        parameters["view"] ?= view?.rawValue
+
+        let url = API.ScienceDirect.articleEntitlement + "/scopus_id/\(id)"
+        ElsevierKit.shared.request(url,
+                                   method: .get,
+                                   parameters: parameters,
+                                   success: { model in
+                                       success?(model)
+                                   },
+                                   failure: { error in
+                                       failure?(error)
+                                   })
+    }
+
+    /**
+
+     Full Text Entitlement API: This represents the entitlement status of the full text article(s) specified by Pubmed ID (MEDLINE Identifier). Multiple Pubmed ID values can be submitted by including them as a comma-delimited list.
+
+     - Parameters:
+         - pubmedID: Pubmed ID (MEDLINE Identifier)
+         - field: This alias represents the name of specific fields that should be returned. The list of fields include all of the fields returned in the response payload (see view). Multiple fields can be specified, delimited by commas.
+         - viewType: This alias represents the list of elements that will be returned in the response. The following chart shows the [Full-Text Entitlement Views](https://dev.elsevier.com/guides/ArticleEntitlementViews.htm).
+         - startref: Applicable only to REF view. Numeric value representing the results offset (i.e. starting position for the resolved references).
+         - refcount: Applicable only to REF view. Numeric value representing the maximum number of resolved references to be returned. If not provided this will be set to a system default based on service level.
+         - success: Success handler
+         - failure: Failure handler
+
+     - SeeAlso:
+     https://dev.elsevier.com/documentation/ArticleEntitlementAPI.wadl
+     */
+    func articleEntitlement(pubmedID id: String,
+                            field: String? = nil,
+                            viewType view: SDArticleEntitlementViewType? = nil,
+                            success: ElsevierKit.SuccessHandler<ScienceDirectArticleEntitlementRetrievalModel>? = nil,
+                            failure: ElsevierKit.FailureHandler? = nil) {
+
+        var parameters: Parameters = Parameters()
+        parameters["field"] ?= field
+        parameters["view"] ?= view?.rawValue
+
+        let url = API.ScienceDirect.articleEntitlement + "/pubmed_id/\(id)"
+        ElsevierKit.shared.request(url,
+                                   method: .get,
+                                   parameters: parameters,
+                                   success: { model in
+                                       success?(model)
+                                   },
+                                   failure: { error in
+                                       failure?(error)
+                                   })
+    }
 }

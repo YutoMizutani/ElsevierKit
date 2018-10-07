@@ -15,6 +15,20 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Core/ElsevierKitEngineeringVillage.swift",
+      "line": null,
+      "symbol": "ElsevierKitEngineeringVillage",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Core/ElsevierKitEngineeringVillage.swift",
+      "line": 10,
+      "symbol": "ElsevierKitEngineeringVillage",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Core/ElsevierKitScienceDirect.swift",
       "line": null,
       "symbol": "ElsevierKitScienceDirect",
@@ -29,92 +43,1541 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SortType.swift",
-      "line": 18,
-      "symbol": "SortType.date",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Core/ElsevierKitScopus.swift",
+      "line": null,
+      "symbol": "ElsevierKitScopus",
+      "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SortType.swift",
-      "line": 18,
-      "symbol": "SortType.relevance",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/AuthenticateModel.swift",
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Core/ElsevierKitScopus.swift",
       "line": 10,
-      "symbol": "AuthenticateModel",
-      "symbol_kind": "source.lang.swift.decl.struct",
+      "symbol": "ElsevierKitScopus",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/ContentType.swift",
+      "line": 18,
+      "symbol": "ContentType.all",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/ContentType.swift",
+      "line": 18,
+      "symbol": "ContentType.core",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/ContentType.swift",
+      "line": 18,
+      "symbol": "ContentType.dummy",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SCAbstractRetrievalViewType.swift",
+      "line": 20,
+      "symbol": "SCAbstractRetrievalViewType.meta",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SCAbstractRetrievalViewType.swift",
+      "line": 21,
+      "symbol": "SCAbstractRetrievalViewType.metaAbs",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SCAbstractRetrievalViewType.swift",
+      "line": 22,
+      "symbol": "SCAbstractRetrievalViewType.full",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SCAbstractRetrievalViewType.swift",
+      "line": 23,
+      "symbol": "SCAbstractRetrievalViewType.ref",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SCAbstractRetrievalViewType.swift",
+      "line": 24,
+      "symbol": "SCAbstractRetrievalViewType.entitled",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SCSearchViewType.swift",
+      "line": 20,
+      "symbol": "SCSearchViewType.standard",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SCSearchViewType.swift",
+      "line": 21,
+      "symbol": "SCSearchViewType.complete",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SCSortType.swift",
+      "line": 24,
+      "symbol": "SCSortType.artnumAscending",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SCSortType.swift",
+      "line": 25,
+      "symbol": "SCSortType.artnumDescending",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SCSortType.swift",
+      "line": 26,
+      "symbol": "SCSortType.citedByCountAscending",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SCSortType.swift",
+      "line": 27,
+      "symbol": "SCSortType.citedByCountDescending",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SCSortType.swift",
+      "line": 28,
+      "symbol": "SCSortType.coverDateAscending",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SCSortType.swift",
+      "line": 29,
+      "symbol": "SCSortType.coverDateDescending",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SCSortType.swift",
+      "line": 30,
+      "symbol": "SCSortType.creatorAscending",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SCSortType.swift",
+      "line": 31,
+      "symbol": "SCSortType.creatorDescending",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SCSortType.swift",
+      "line": 32,
+      "symbol": "SCSortType.origLoadDateAscending",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SCSortType.swift",
+      "line": 33,
+      "symbol": "SCSortType.origLoadDateDescending",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SCSortType.swift",
+      "line": 34,
+      "symbol": "SCSortType.pageCountAscending",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SCSortType.swift",
+      "line": 35,
+      "symbol": "SCSortType.pageCountDescending",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SCSortType.swift",
+      "line": 36,
+      "symbol": "SCSortType.pageFirstAscending",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SCSortType.swift",
+      "line": 37,
+      "symbol": "SCSortType.pageFirstDescending",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SCSortType.swift",
+      "line": 38,
+      "symbol": "SCSortType.pageRangeAscending",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SCSortType.swift",
+      "line": 39,
+      "symbol": "SCSortType.pageRangeDescending",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SCSortType.swift",
+      "line": 40,
+      "symbol": "SCSortType.publicationNameAscending",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SCSortType.swift",
+      "line": 41,
+      "symbol": "SCSortType.publicationNameDescending",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SCSortType.swift",
+      "line": 42,
+      "symbol": "SCSortType.pubYearAscending",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SCSortType.swift",
+      "line": 43,
+      "symbol": "SCSortType.pubYearDescending",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SCSortType.swift",
+      "line": 44,
+      "symbol": "SCSortType.relevancyAscending",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SCSortType.swift",
+      "line": 45,
+      "symbol": "SCSortType.relevancyDescending",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SCSortType.swift",
+      "line": 46,
+      "symbol": "SCSortType.volumeAscending",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SCSortType.swift",
+      "line": 47,
+      "symbol": "SCSortType.volumeDescending",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SDArticleEntitlementViewType.swift",
+      "line": 20,
+      "symbol": "SDArticleEntitlementViewType.full",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SDArticleViewType.swift",
+      "line": 20,
+      "symbol": "SDArticleViewType.meta",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SDArticleViewType.swift",
+      "line": 21,
+      "symbol": "SDArticleViewType.metaAbs",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SDArticleViewType.swift",
+      "line": 22,
+      "symbol": "SDArticleViewType.metaAbsRef",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SDArticleViewType.swift",
+      "line": 23,
+      "symbol": "SDArticleViewType.full",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SDArticleViewType.swift",
+      "line": 24,
+      "symbol": "SDArticleViewType.ref",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SDArticleViewType.swift",
+      "line": 25,
+      "symbol": "SDArticleViewType.entitled",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SDSortType.swift",
+      "line": 18,
+      "symbol": "SDSortType.date",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Enum/SDSortType.swift",
+      "line": 18,
+      "symbol": "SDSortType.relevance",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/AuthenticateModel.swift",
-      "line": 11,
+      "line": 14,
       "symbol": "AuthenticateModel.authenticateResponse",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/AuthenticateModel.swift",
-      "line": 13,
+      "line": 16,
       "symbol": "AuthenticateModel.Response",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/AuthenticateModel.swift",
-      "line": 14,
+      "line": 17,
       "symbol": "AuthenticateModel.Response.choice",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/AuthenticateModel.swift",
-      "line": 15,
+      "line": 18,
       "symbol": "AuthenticateModel.Response.type",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/AuthenticateModel.swift",
-      "line": 16,
+      "line": 19,
       "symbol": "AuthenticateModel.Response.authToken",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
-      "line": 10,
-      "symbol": "ScienceDirectSearchModel",
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 14,
+      "symbol": "EngineeringVillageSearchModel.page",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 16,
+      "symbol": "EngineeringVillageSearchModel.Page",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 17,
+      "symbol": "EngineeringVillageSearchModel.Page.resultsCount",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 18,
+      "symbol": "EngineeringVillageSearchModel.Page.resultsPerPage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 19,
+      "symbol": "EngineeringVillageSearchModel.Page.pageResults",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 21,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 22,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.pageEntry",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 24,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 25,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.eiDocument",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 27,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 28,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.documentproperties",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 29,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.documentobjects",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 30,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.doc",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 31,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.view",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 32,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.ft",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 33,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.afs",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 34,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.aus",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 36,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Documentproperties",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 37,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Documentproperties.dt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 38,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Documentproperties.articleNumber",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 39,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Documentproperties.cn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 40,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Documentproperties.pp",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 41,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Documentproperties.cprt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 42,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Documentproperties.sd",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 43,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Documentproperties.se",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 44,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Documentproperties.ril",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 45,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Documentproperties.rct",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 46,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Documentproperties.cpr",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 47,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Documentproperties.loadNo",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 48,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Documentproperties.ti",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 49,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Documentproperties.vo",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 50,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Documentproperties.pPp",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 51,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Documentproperties.mt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 52,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Documentproperties.do",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 53,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Documentproperties.yr",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 54,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Documentproperties.la",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 55,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Documentproperties.sn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 56,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Documentproperties.so",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 57,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Documentproperties.pn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 84,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Documentobjects",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 85,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Documentobjects.citedby",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 87,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Documentobjects.Citedby",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 88,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Documentobjects.Citedby.pii",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 89,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Documentobjects.Citedby.issn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 90,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Documentobjects.Citedby.firstissue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 91,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Documentobjects.Citedby.firstvolume",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 92,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Documentobjects.Citedby.firstpage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 93,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Documentobjects.Citedby.isbn13",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 94,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Documentobjects.Citedby.doi",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 112,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Doc",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 113,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Doc.docId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 114,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Doc.hitindex",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 115,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Doc.db",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 117,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Doc.Db",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 118,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Doc.Db.dbname",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 119,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Doc.Db.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 134,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Ft",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 135,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Ft.ftlink",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 142,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Afs",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 143,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Afs.af",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 145,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Afs.Af",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 146,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Afs.Af.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 147,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Afs.Af.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 160,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Aus",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 161,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Aus.au",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 163,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Aus.Au",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 164,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Aus.Au.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 165,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Aus.Au.email",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 166,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Aus.Au.afs",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 167,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Aus.Au.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 169,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Aus.Au.Afs",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/EngineeringVillageSearchModel.swift",
+      "line": 170,
+      "symbol": "EngineeringVillageSearchModel.Page.PageResults.PageEntry.EiDocument.Aus.Au.Afs.afid",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleEntitlementRetrievalModel.swift",
+      "line": 10,
+      "symbol": "ScienceDirectArticleEntitlementRetrievalModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleEntitlementRetrievalModel.swift",
       "line": 11,
+      "symbol": "ScienceDirectArticleEntitlementRetrievalModel.entitlementResponse",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleEntitlementRetrievalModel.swift",
+      "line": 13,
+      "symbol": "ScienceDirectArticleEntitlementRetrievalModel.EntitlementResponse",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleEntitlementRetrievalModel.swift",
+      "line": 14,
+      "symbol": "ScienceDirectArticleEntitlementRetrievalModel.EntitlementResponse.documentEntitlement",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleEntitlementRetrievalModel.swift",
+      "line": 16,
+      "symbol": "ScienceDirectArticleEntitlementRetrievalModel.EntitlementResponse.DocumentEntitlement",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleEntitlementRetrievalModel.swift",
+      "line": 17,
+      "symbol": "ScienceDirectArticleEntitlementRetrievalModel.EntitlementResponse.DocumentEntitlement.status",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleEntitlementRetrievalModel.swift",
+      "line": 18,
+      "symbol": "ScienceDirectArticleEntitlementRetrievalModel.EntitlementResponse.DocumentEntitlement.dcIdentifier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleEntitlementRetrievalModel.swift",
+      "line": 19,
+      "symbol": "ScienceDirectArticleEntitlementRetrievalModel.EntitlementResponse.DocumentEntitlement.prismUrl",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleEntitlementRetrievalModel.swift",
+      "line": 20,
+      "symbol": "ScienceDirectArticleEntitlementRetrievalModel.EntitlementResponse.DocumentEntitlement.prismDoi",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleEntitlementRetrievalModel.swift",
+      "line": 21,
+      "symbol": "ScienceDirectArticleEntitlementRetrievalModel.EntitlementResponse.DocumentEntitlement.pii",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleEntitlementRetrievalModel.swift",
+      "line": 22,
+      "symbol": "ScienceDirectArticleEntitlementRetrievalModel.EntitlementResponse.DocumentEntitlement.piiNorm",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleEntitlementRetrievalModel.swift",
+      "line": 23,
+      "symbol": "ScienceDirectArticleEntitlementRetrievalModel.EntitlementResponse.DocumentEntitlement.scopusId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleEntitlementRetrievalModel.swift",
+      "line": 24,
+      "symbol": "ScienceDirectArticleEntitlementRetrievalModel.EntitlementResponse.DocumentEntitlement.pubmedId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleEntitlementRetrievalModel.swift",
+      "line": 25,
+      "symbol": "ScienceDirectArticleEntitlementRetrievalModel.EntitlementResponse.DocumentEntitlement.eid",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleEntitlementRetrievalModel.swift",
+      "line": 26,
+      "symbol": "ScienceDirectArticleEntitlementRetrievalModel.EntitlementResponse.DocumentEntitlement.entitled",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleEntitlementRetrievalModel.swift",
+      "line": 27,
+      "symbol": "ScienceDirectArticleEntitlementRetrievalModel.EntitlementResponse.DocumentEntitlement.message",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleEntitlementRetrievalModel.swift",
+      "line": 28,
+      "symbol": "ScienceDirectArticleEntitlementRetrievalModel.EntitlementResponse.DocumentEntitlement.link",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleEntitlementRetrievalModel.swift",
+      "line": 30,
+      "symbol": "ScienceDirectArticleEntitlementRetrievalModel.EntitlementResponse.DocumentEntitlement.Link",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleEntitlementRetrievalModel.swift",
+      "line": 31,
+      "symbol": "ScienceDirectArticleEntitlementRetrievalModel.EntitlementResponse.DocumentEntitlement.Link.rel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleEntitlementRetrievalModel.swift",
+      "line": 32,
+      "symbol": "ScienceDirectArticleEntitlementRetrievalModel.EntitlementResponse.DocumentEntitlement.Link.href",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 10,
+      "symbol": "ScienceDirectArticleRetrievalModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 11,
+      "symbol": "ScienceDirectArticleRetrievalModel.fullTextRetrievalResponse",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 13,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 14,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.scopusEid",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 15,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.originalText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 16,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.scopusId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 17,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.pubmedId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 18,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.coredata",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 19,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.objects",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 20,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.link",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 22,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 23,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.eid",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 24,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.dcDescription",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 25,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.openArchiveArticle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 26,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.prismCoverDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 27,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.openaccessUserLicense",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 28,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.prismAggregationType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 29,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.prismUrl",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 30,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.dcCreator",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 31,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.link",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 32,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.dcFormat",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 33,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.openaccessType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 34,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.pii",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 35,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.prismVolume",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 36,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.prismPublisher",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 37,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.dcTitle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 38,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.prismCopyright",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 39,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.openaccess",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 40,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.prismIssn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 41,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.dctermsSubject",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 42,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.openaccessArticle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 43,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.prismPublicationName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 44,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.openaccessSponsorType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 45,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.prismPageRange",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 46,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.prismEndingPage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 47,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.prismCoverDisplayDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 48,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.prismDoi",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 49,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.prismStartingPage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 50,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.dcIdentifier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 51,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.openaccessSponsorName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 53,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.DcCreator",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 54,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.DcCreator.fa",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 55,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.DcCreator.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 63,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.Link",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 64,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.Link.fa",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 65,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.Link.rel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 66,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.Link.href",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 75,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.DctermsSubject",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 76,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.DctermsSubject.fa",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 77,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Coredata.DctermsSubject.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 118,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Objects",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 119,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Objects.object",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 121,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Objects.Object",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 122,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Objects.Object.category",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 123,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Objects.Object.height",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 124,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Objects.Object.width",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 125,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Objects.Object.fa",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 126,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Objects.Object.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 127,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Objects.Object.multimediatype",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 128,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Objects.Object.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 129,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Objects.Object.size",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 130,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Objects.Object.ref",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 131,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Objects.Object.mimetype",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 148,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Link",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 149,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Link.rel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectArticleRetrievalModel.swift",
+      "line": 150,
+      "symbol": "ScienceDirectArticleRetrievalModel.FullTextRetrievalResponse.Link.href",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectObjectRetrievalModel.swift",
+      "line": 10,
+      "symbol": "ScienceDirectObjectRetrievalModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectObjectRetrievalModel.swift",
+      "line": 11,
+      "symbol": "ScienceDirectObjectRetrievalModel.choices",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectObjectRetrievalModel.swift",
+      "line": 13,
+      "symbol": "ScienceDirectObjectRetrievalModel.Choices",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectObjectRetrievalModel.swift",
+      "line": 14,
+      "symbol": "ScienceDirectObjectRetrievalModel.Choices.choice",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectObjectRetrievalModel.swift",
+      "line": 16,
+      "symbol": "ScienceDirectObjectRetrievalModel.Choices.Choice",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectObjectRetrievalModel.swift",
+      "line": 17,
+      "symbol": "ScienceDirectObjectRetrievalModel.Choices.Choice.ref",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectObjectRetrievalModel.swift",
+      "line": 18,
+      "symbol": "ScienceDirectObjectRetrievalModel.Choices.Choice.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectObjectRetrievalModel.swift",
+      "line": 19,
+      "symbol": "ScienceDirectObjectRetrievalModel.Choices.Choice.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
+      "line": 14,
       "symbol": "ScienceDirectSearchModel.resultsFound",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
-      "line": 13,
+      "line": 15,
       "symbol": "ScienceDirectSearchModel.results",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
-      "line": 15,
+      "line": 17,
       "symbol": "ScienceDirectSearchModel.Result",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
-      "line": 17,
+      "line": 18,
       "symbol": "ScienceDirectSearchModel.Result.authors",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
@@ -128,106 +1591,1506 @@
     },
     {
       "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
-      "line": 21,
+      "line": 20,
       "symbol": "ScienceDirectSearchModel.Result.loadDate",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
-      "line": 23,
+      "line": 21,
       "symbol": "ScienceDirectSearchModel.Result.isOpenAccess",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
-      "line": 25,
+      "line": 22,
       "symbol": "ScienceDirectSearchModel.Result.pages",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
-      "line": 27,
+      "line": 23,
       "symbol": "ScienceDirectSearchModel.Result.pii",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
-      "line": 29,
+      "line": 24,
       "symbol": "ScienceDirectSearchModel.Result.publicationDate",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
-      "line": 31,
+      "line": 25,
       "symbol": "ScienceDirectSearchModel.Result.sourceTitle",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
-      "line": 33,
+      "line": 26,
       "symbol": "ScienceDirectSearchModel.Result.title",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
-      "line": 35,
+      "line": 27,
       "symbol": "ScienceDirectSearchModel.Result.uri",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
-      "line": 37,
+      "line": 28,
       "symbol": "ScienceDirectSearchModel.Result.volumeIssue",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
-      "line": 53,
+      "line": 44,
       "symbol": "ScienceDirectSearchModel.Result.Author",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
-      "line": 54,
+      "line": 45,
       "symbol": "ScienceDirectSearchModel.Result.Author.order",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
-      "line": 55,
+      "line": 46,
       "symbol": "ScienceDirectSearchModel.Result.Author.name",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
-      "line": 58,
+      "line": 49,
       "symbol": "ScienceDirectSearchModel.Result.Pages",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
-      "line": 59,
+      "line": 50,
       "symbol": "ScienceDirectSearchModel.Result.Pages.first",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScienceDirectSearchModel.swift",
-      "line": 60,
+      "line": 51,
       "symbol": "ScienceDirectSearchModel.Result.Pages.last",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 14,
+      "symbol": "ScopusAbstractRetrievalModel.abstractsRetrievalResponse",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 16,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 17,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.affiliation",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 18,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.coredata",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 20,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Affiliation",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 21,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Affiliation.affiliationCity",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 22,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Affiliation.affilname",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 23,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Affiliation.affiliationCountry",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 32,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 33,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.srctype",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 34,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.eid",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 35,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.pubmedId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 36,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.prismCoverDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 37,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.prismAggregationType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 38,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.prismUrl",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 39,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.dcCreator",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 40,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.link",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 41,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.sourceId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 42,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.pii",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 43,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.citedbyCount",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 44,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.prismVolume",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 45,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.subtype",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 46,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.dcTitle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 47,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.prismIssn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 48,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.prismIssueIdentifier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 49,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.subtypeDescription",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 50,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.prismPublicationName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 51,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.prismPageRange",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 52,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.prismEndingPage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 53,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.prismDoi",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 54,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.prismStartingPage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 55,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.dcIdentifier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 57,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.DcCreator",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 58,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.DcCreator.author",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 60,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.DcCreator.Author",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 61,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.DcCreator.Author.preferredName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 62,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.DcCreator.Author.seq",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 63,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.DcCreator.Author.ceInitials",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 64,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.DcCreator.Author.fa",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 65,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.DcCreator.Author.affiliation",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 66,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.DcCreator.Author.ceSurname",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 67,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.DcCreator.Author.auid",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 68,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.DcCreator.Author.authorUrl",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 69,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.DcCreator.Author.ceIndexedName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 71,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.DcCreator.Author.PreferredName",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 72,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.DcCreator.Author.PreferredName.ceGivenName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 73,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.DcCreator.Author.PreferredName.ceInitials",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 74,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.DcCreator.Author.PreferredName.ceSurname",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 75,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.DcCreator.Author.PreferredName.ceIndexedName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 85,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.DcCreator.Author.Affiliation",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 86,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.DcCreator.Author.Affiliation.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 87,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.DcCreator.Author.Affiliation.href",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 109,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.Link",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 110,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.Link.fa",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 111,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.Link.rel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAbstractRetrievalModel.swift",
+      "line": 112,
+      "symbol": "ScopusAbstractRetrievalModel.AbstractsRetrievalResponse.Coredata.Link.href",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAffiliationModel.swift",
+      "line": 14,
+      "symbol": "ScopusAffiliationModel.searchResults",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAffiliationModel.swift",
+      "line": 16,
+      "symbol": "ScopusAffiliationModel.SearchResults",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAffiliationModel.swift",
+      "line": 17,
+      "symbol": "ScopusAffiliationModel.SearchResults.totalResults",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAffiliationModel.swift",
+      "line": 18,
+      "symbol": "ScopusAffiliationModel.SearchResults.startIndex",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAffiliationModel.swift",
+      "line": 19,
+      "symbol": "ScopusAffiliationModel.SearchResults.itemsPerPage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAffiliationModel.swift",
+      "line": 20,
+      "symbol": "ScopusAffiliationModel.SearchResults.query",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAffiliationModel.swift",
+      "line": 21,
+      "symbol": "ScopusAffiliationModel.SearchResults.link",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAffiliationModel.swift",
+      "line": 22,
+      "symbol": "ScopusAffiliationModel.SearchResults.entry",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAffiliationModel.swift",
+      "line": 24,
+      "symbol": "ScopusAffiliationModel.SearchResults.Query",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAffiliationModel.swift",
+      "line": 25,
+      "symbol": "ScopusAffiliationModel.SearchResults.Query.role",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAffiliationModel.swift",
+      "line": 26,
+      "symbol": "ScopusAffiliationModel.SearchResults.Query.searchTerms",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAffiliationModel.swift",
+      "line": 27,
+      "symbol": "ScopusAffiliationModel.SearchResults.Query.startPage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAffiliationModel.swift",
+      "line": 36,
+      "symbol": "ScopusAffiliationModel.SearchResults.Link",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAffiliationModel.swift",
+      "line": 37,
+      "symbol": "ScopusAffiliationModel.SearchResults.Link.fa",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAffiliationModel.swift",
+      "line": 38,
+      "symbol": "ScopusAffiliationModel.SearchResults.Link.ref",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAffiliationModel.swift",
+      "line": 39,
+      "symbol": "ScopusAffiliationModel.SearchResults.Link.href",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAffiliationModel.swift",
+      "line": 40,
+      "symbol": "ScopusAffiliationModel.SearchResults.Link.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAffiliationModel.swift",
+      "line": 50,
+      "symbol": "ScopusAffiliationModel.SearchResults.Entry",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAffiliationModel.swift",
+      "line": 51,
+      "symbol": "ScopusAffiliationModel.SearchResults.Entry.fa",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAffiliationModel.swift",
+      "line": 52,
+      "symbol": "ScopusAffiliationModel.SearchResults.Entry.link",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAffiliationModel.swift",
+      "line": 53,
+      "symbol": "ScopusAffiliationModel.SearchResults.Entry.url",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAffiliationModel.swift",
+      "line": 54,
+      "symbol": "ScopusAffiliationModel.SearchResults.Entry.identifier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAffiliationModel.swift",
+      "line": 55,
+      "symbol": "ScopusAffiliationModel.SearchResults.Entry.affiliationName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAffiliationModel.swift",
+      "line": 56,
+      "symbol": "ScopusAffiliationModel.SearchResults.Entry.variant",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAffiliationModel.swift",
+      "line": 57,
+      "symbol": "ScopusAffiliationModel.SearchResults.Entry.documentCount",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAffiliationModel.swift",
+      "line": 58,
+      "symbol": "ScopusAffiliationModel.SearchResults.Entry.city",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAffiliationModel.swift",
+      "line": 59,
+      "symbol": "ScopusAffiliationModel.SearchResults.Entry.country",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAffiliationModel.swift",
+      "line": 74,
+      "symbol": "ScopusAffiliationModel.SearchResults.Variant",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAffiliationModel.swift",
+      "line": 75,
+      "symbol": "ScopusAffiliationModel.SearchResults.Variant.fa",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAffiliationModel.swift",
+      "line": 76,
+      "symbol": "ScopusAffiliationModel.SearchResults.Variant.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 14,
+      "symbol": "ScopusAuthorModel.searchResults",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 16,
+      "symbol": "ScopusAuthorModel.SearchResults",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 17,
+      "symbol": "ScopusAuthorModel.SearchResults.totalResults",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 18,
+      "symbol": "ScopusAuthorModel.SearchResults.startIndex",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 19,
+      "symbol": "ScopusAuthorModel.SearchResults.itemsPerPage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 20,
+      "symbol": "ScopusAuthorModel.SearchResults.query",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 21,
+      "symbol": "ScopusAuthorModel.SearchResults.link",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 22,
+      "symbol": "ScopusAuthorModel.SearchResults.entry",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 24,
+      "symbol": "ScopusAuthorModel.SearchResults.Query",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 25,
+      "symbol": "ScopusAuthorModel.SearchResults.Query.role",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 26,
+      "symbol": "ScopusAuthorModel.SearchResults.Query.searchTerms",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 27,
+      "symbol": "ScopusAuthorModel.SearchResults.Query.startPage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 36,
+      "symbol": "ScopusAuthorModel.SearchResults.Link",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 37,
+      "symbol": "ScopusAuthorModel.SearchResults.Link.fa",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 38,
+      "symbol": "ScopusAuthorModel.SearchResults.Link.ref",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 39,
+      "symbol": "ScopusAuthorModel.SearchResults.Link.href",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 40,
+      "symbol": "ScopusAuthorModel.SearchResults.Link.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 50,
+      "symbol": "ScopusAuthorModel.SearchResults.Entry",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 51,
+      "symbol": "ScopusAuthorModel.SearchResults.Entry.fa",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 52,
+      "symbol": "ScopusAuthorModel.SearchResults.Entry.link",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 53,
+      "symbol": "ScopusAuthorModel.SearchResults.Entry.url",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 54,
+      "symbol": "ScopusAuthorModel.SearchResults.Entry.identifier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 55,
+      "symbol": "ScopusAuthorModel.SearchResults.Entry.eid",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 56,
+      "symbol": "ScopusAuthorModel.SearchResults.Entry.preferredName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 57,
+      "symbol": "ScopusAuthorModel.SearchResults.Entry.variant",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 58,
+      "symbol": "ScopusAuthorModel.SearchResults.Entry.documentCount",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 59,
+      "symbol": "ScopusAuthorModel.SearchResults.Entry.subject",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 60,
+      "symbol": "ScopusAuthorModel.SearchResults.Entry.affiliation",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 76,
+      "symbol": "ScopusAuthorModel.SearchResults.Preferred",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 77,
+      "symbol": "ScopusAuthorModel.SearchResults.Preferred.surname",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 78,
+      "symbol": "ScopusAuthorModel.SearchResults.Preferred.gevenName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 79,
+      "symbol": "ScopusAuthorModel.SearchResults.Preferred.initials",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 88,
+      "symbol": "ScopusAuthorModel.SearchResults.Variant",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 89,
+      "symbol": "ScopusAuthorModel.SearchResults.Variant.fa",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 90,
+      "symbol": "ScopusAuthorModel.SearchResults.Variant.surname",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 91,
+      "symbol": "ScopusAuthorModel.SearchResults.Variant.gevenName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 92,
+      "symbol": "ScopusAuthorModel.SearchResults.Variant.initials",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 102,
+      "symbol": "ScopusAuthorModel.SearchResults.Subject",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 103,
+      "symbol": "ScopusAuthorModel.SearchResults.Subject.forceArray",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 104,
+      "symbol": "ScopusAuthorModel.SearchResults.Subject.abbr",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 105,
+      "symbol": "ScopusAuthorModel.SearchResults.Subject.frequency",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 106,
+      "symbol": "ScopusAuthorModel.SearchResults.Subject.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 116,
+      "symbol": "ScopusAuthorModel.SearchResults.Affiliation",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 117,
+      "symbol": "ScopusAuthorModel.SearchResults.Affiliation.url",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 118,
+      "symbol": "ScopusAuthorModel.SearchResults.Affiliation.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 119,
+      "symbol": "ScopusAuthorModel.SearchResults.Affiliation.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 120,
+      "symbol": "ScopusAuthorModel.SearchResults.Affiliation.city",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusAuthorModel.swift",
+      "line": 121,
+      "symbol": "ScopusAuthorModel.SearchResults.Affiliation.country",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 14,
+      "symbol": "ScopusSearchModel.searchResults",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 16,
+      "symbol": "ScopusSearchModel.SearchResults",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 17,
+      "symbol": "ScopusSearchModel.SearchResults.totalResults",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 18,
+      "symbol": "ScopusSearchModel.SearchResults.startIndex",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 19,
+      "symbol": "ScopusSearchModel.SearchResults.itemsPerPage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 20,
+      "symbol": "ScopusSearchModel.SearchResults.query",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 21,
+      "symbol": "ScopusSearchModel.SearchResults.link",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 22,
+      "symbol": "ScopusSearchModel.SearchResults.entry",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 24,
+      "symbol": "ScopusSearchModel.SearchResults.Query",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 25,
+      "symbol": "ScopusSearchModel.SearchResults.Query.role",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 26,
+      "symbol": "ScopusSearchModel.SearchResults.Query.searchTerms",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 27,
+      "symbol": "ScopusSearchModel.SearchResults.Query.startPage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 36,
+      "symbol": "ScopusSearchModel.SearchResults.Link",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 37,
+      "symbol": "ScopusSearchModel.SearchResults.Link.fa",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 38,
+      "symbol": "ScopusSearchModel.SearchResults.Link.ref",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 39,
+      "symbol": "ScopusSearchModel.SearchResults.Link.href",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 40,
+      "symbol": "ScopusSearchModel.SearchResults.Link.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 50,
+      "symbol": "ScopusSearchModel.SearchResults.Entry",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 51,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.fa",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 52,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.link",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 53,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.url",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 54,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.identifier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 55,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.title",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 56,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.creator",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 57,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.publicationName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 58,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.issn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 59,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.eIssn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 60,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.sourceID",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 61,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.isOpenAccess",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 62,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.openaccess",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 63,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.volume",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 64,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.issueIdentifier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 65,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.pageRange",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 66,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.coverDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 67,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.coverDisplayDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 68,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.doi",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 69,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.description",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 70,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.citedByCount",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 71,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.affiliation",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 72,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.aggregationType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 73,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.subtype",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 74,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.subtypeDescription",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 75,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.author",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 76,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.authkeywords",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 77,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.eid",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 78,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.pii",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 80,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.Affiliation",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 81,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.Affiliation.fa",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 82,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.Affiliation.url",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 83,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.Affiliation.afid",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 84,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.Affiliation.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 85,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.Affiliation.city",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 86,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.Affiliation.country",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 87,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.Affiliation.variant",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 100,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.Author",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 101,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.Author.fa",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 102,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.Author.url",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 103,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.Author.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 104,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.Author.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 105,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.Author.givenName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 106,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.Author.surName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 107,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.Author.initials",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 108,
+      "symbol": "ScopusSearchModel.SearchResults.Entry.Author.afid",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 154,
+      "symbol": "ScopusSearchModel.SearchResults.Variant",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 155,
+      "symbol": "ScopusSearchModel.SearchResults.Variant.fa",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ym/Developer/programs/swift/swift4/iOS/ElsevierKit/Sources/Model/ScopusSearchModel.swift",
+      "line": 156,
+      "symbol": "ScopusSearchModel.SearchResults.Variant.value",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     }

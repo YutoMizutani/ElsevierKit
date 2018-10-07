@@ -6,6 +6,7 @@ disabled_rules:
   - identifier_name
   - file_name
   - nesting
+  - type_name
 opt_in_rules:
   - array_init
   - attributes

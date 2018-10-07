@@ -9,6 +9,14 @@ Elsevier API client written in Swift.
 
 This API is required a key. Register [this page](http://dev.elsevier.com).
 
+## For developers
+
+#### Generate required API key in Tests
+
+```
+$ sh ./scripts/generate-secrets.sh ./ (YOUR_API_KEY)
+```
+
 ## License
 
 CiNiiKit is available under the [MIT license](https://github.com/YutoMizutani/ElsevierKit/blob/master/LICENSE).
